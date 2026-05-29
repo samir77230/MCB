@@ -218,9 +218,9 @@
       "type": "before-after-image",
       "settings": {
         "full_width": false,
-        "subheading": "",
+        "subheading": "AVANT / APRÈS",
         "title": "",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "content": "<p>Ne le cherchez plus.Exposez-le.</p>",
         "before_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_08_41.png",
         "before_image_mobile": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_10_28.png",
         "after_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_20_34.png",
@@ -234,7 +234,7 @@
         "background": "",
         "background_gradient": "",
         "text_color": "",
-        "before_text_color": "#ffffff",
+        "before_text_color": "#000000",
         "after_text_color": "#ffffff",
         "drag_cursor_background": "#ffffff",
         "drag_cursor_color": "#000000"
