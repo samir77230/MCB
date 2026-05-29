@@ -69,6 +69,17 @@
     "rich_text_3RHRQ3": {
       "type": "rich-text",
       "blocks": {
+        "icon_D74rwy": {
+          "type": "icon",
+          "settings": {
+            "icon": "picto-coupon",
+            "custom_icon": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_40_18.png",
+            "icon_width": 120,
+            "icon_background_type": "none",
+            "icon_background": "",
+            "icon_color": ""
+          }
+        },
         "heading_7FUiyb": {
           "type": "heading",
           "settings": {
@@ -86,6 +97,7 @@
         }
       },
       "block_order": [
+        "icon_D74rwy",
         "heading_7FUiyb",
         "richtext_4nX7r7"
       ],
@@ -181,6 +193,45 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": ""
+      }
+    },
+    "image_with_text_overlay_zcbg9Y": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_47_45.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_51_41.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "before-after-image": {
+      "type": "before-after-image",
+      "settings": {
+        "full_width": true,
+        "subheading": "",
+        "title": "Before/after",
+        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "bottom",
+        "before_text": "Before",
+        "after_text": "After",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#ffffff",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "impact-text": {
@@ -344,28 +395,6 @@
         "mobile_row_height": 150,
         "background": "",
         "background_gradient": ""
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "",
-        "title": "Before/after",
-        "content": "<p>Showcase your product benefit by using before/after image comparison.</p>",
-        "expand_image": false,
-        "text_position": "center",
-        "before_after_text_position": "bottom",
-        "before_text": "Before",
-        "after_text": "After",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#ffffff",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
       }
     },
     "press": {
@@ -673,10 +702,11 @@
     "rich_text_3RHRQ3",
     "scrolling-text",
     "collection-list",
+    "image_with_text_overlay_zcbg9Y",
+    "before-after-image",
     "impact-text",
     "featured-collection",
     "media-grid",
-    "before-after-image",
     "press",
     "hot-spots",
     "multiple-images-with-text",
