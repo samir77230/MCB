@@ -66,6 +66,39 @@
         "overlay_opacity": 0
       }
     },
+    "rich_text_3RHRQ3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7FUiyb": {
+          "type": "heading",
+          "settings": {
+            "text": "UN OBJET NOBLE POUR UN GESTE QUOTIDIEN",
+            "heading_tag": "h4",
+            "text_color": "#593710",
+            "gradient": ""
+          }
+        },
+        "richtext_4nX7r7": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p><em>Enfilez vos chaussures debout. Avec élégance.</em></p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7FUiyb",
+        "richtext_4nX7r7"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "scrolling-text": {
       "type": "scrolling-text",
       "settings": {
@@ -637,6 +670,7 @@
   "order": [
     "slideshow",
     "image-with-text-overlay",
+    "rich_text_3RHRQ3",
     "scrolling-text",
     "collection-list",
     "impact-text",
