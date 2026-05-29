@@ -19,10 +19,10 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Quand l'utile devient beau.              Bienvenue chez Maison Clairbois.",
-            "heading_tag": "h5",
-            "button_text": "Découvrir le produit",
+            "subheading": "Quand l'utile devient beau.",
+            "title": "Bienvenue chez Maison Clairbois.",
+            "heading_tag": "h4",
+            "button_text": "Je découvre",
             "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -189,7 +189,7 @@
         "1664424181b38582d5-0": {
           "type": "item",
           "settings": {
-            "title": "100%",
+            "title": "",
             "subheading": "Showcase a benefit of your product",
             "content": "",
             "button_text": "",
