@@ -19,8 +19,8 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "Quand l'utile devient beau.",
-            "title": "Bienvenue chez Maison Clairbois.",
+            "subheading": "",
+            "title": "Quand l'utile devient beau. Bienvenue chez Maison Clairbois.",
             "heading_tag": "h4",
             "button_text": "Je découvre",
             "button_link": "shopify://collections/all",
@@ -81,7 +81,7 @@
         "richtext_4nX7r7": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>Enfilez vos chaussures debout. Avec élégance.</em></p>"
+            "content": "<p><em>Un chausse-pied en bois naturel, fixé au mur sans perçage,toujours là où vous en avez besoin,toujours beau à regarder.Parce que votre entrée mérite ce soin.Et votre dos aussi.</em></p>"
           }
         }
       },
