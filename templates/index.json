@@ -92,7 +92,7 @@
         "richtext_4nX7r7": {
           "type": "richtext",
           "settings": {
-            "content": "<p><em>Un chausse-pied en bois naturel, fixé au mur sans perçage,toujours là où vous en avez besoin,toujours beau à regarder.Parce que votre entrée mérite ce soin.Et votre dos aussi.</em></p>"
+            "content": "<p><em>Un chausse-pied en bois naturel, fixé au mur sans perçage,toujours là où vous en avez besoin,toujours beau à regarder. Parce que votre entrée mérite ce soin. Et votre dos aussi.</em></p>"
           }
         }
       },
@@ -104,11 +104,11 @@
       "name": "Rich text",
       "settings": {
         "full_width": true,
-        "content_width": "small",
+        "content_width": "medium",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": ""
+        "text_color": "#000000"
       }
     },
     "scrolling-text": {
@@ -252,7 +252,7 @@
             "button_text": "",
             "button_url": "",
             "animate_impact_text": false,
-            "animate_impact_text_duration": 2
+            "animate_impact_text_duration": 0.5
           }
         }
       },
@@ -273,6 +273,68 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "testimonials_n36RPz": {
+      "type": "testimonials",
+      "blocks": {
+        "testimonial_JzcEfK": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/woman-applying-lip-balm.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "John S.",
+            "title": "Testimonial 1",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_9eHURj": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "Mary U.",
+            "title": "Testimonial 2",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        },
+        "testimonial_UEEQEm": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_10_28.png",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 4,
+            "author": "Joshua A.",
+            "title": "Testimonial 3",
+            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_JzcEfK",
+        "testimonial_9eHURj",
+        "testimonial_UEEQEm"
+      ],
+      "name": "Testimonials",
+      "settings": {
+        "full_width": true,
+        "stack_testimonials": true,
+        "subheading": "",
+        "title": "Testimonials",
+        "content": "",
+        "link_url": "",
+        "link_text": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "testimonial_card_background": "",
+        "testimonial_card_text_color": ""
       }
     },
     "featured-collection": {
@@ -711,6 +773,7 @@
     "image_with_text_overlay_zcbg9Y",
     "before-after-image",
     "impact-text",
+    "testimonials_n36RPz",
     "featured-collection",
     "media-grid",
     "press",
