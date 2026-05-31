@@ -294,6 +294,7 @@
     },
     "image_with_text_overlay_AVKyL4": {
       "type": "image-with-text-overlay",
+      "disabled": true,
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -301,6 +302,22 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_03_32_48.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_gH7mBi": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "md",
+        "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_26_57.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -412,22 +429,6 @@
       ],
       "name": "Séparateur de section",
       "settings": {}
-    },
-    "image_with_text_overlay_gH7mBi": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "sm",
-        "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_26_57.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     },
     "blocks_3krN3J": {
       "type": "_blocks",
@@ -582,11 +583,11 @@
     "impact-text",
     "testimonials_n36RPz",
     "image_with_text_overlay_AVKyL4",
+    "image_with_text_overlay_gH7mBi",
     "scrolling_text_4rV9t3",
     "178019223753940044",
     "image_with_text_overlay_eJ66j9",
     "blocks_8HwAVe",
-    "image_with_text_overlay_gH7mBi",
     "blocks_3krN3J",
     "image_with_text_overlay_wH8MCm",
     "featured_product_YqJj7g"
