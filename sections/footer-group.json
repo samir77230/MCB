@@ -24,8 +24,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Customer service",
-            "content": "<p>Tell your customers how they can reach you.</p>"
+            "title": "Service client réactif",
+            "content": "<p>Notre équipe est disponible pour répondre à vos questions et vous accompagner dans votre achat.</p>"
           }
         },
         "discount": {
@@ -38,8 +38,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Refer a friend",
-            "content": "<p>Tell your customers about your promotional offers.</p>"
+            "title": "Livraison rapide et sécurisée",
+            "content": "<p>Vos commandes sont expédiées rapidement et emballées avec soin pour arriver en parfait état.</p>"
           }
         },
         "payment": {
@@ -52,8 +52,8 @@
             "icon_background_type": "none",
             "icon_background": "",
             "icon_color": "",
-            "title": "Secure payment",
-            "content": "<p>Tel your customers about your payment methods.</p>"
+            "title": "Paiement sécurisé",
+            "content": "<p>Vos données sont protégées par les meilleures technologies de sécurité du marché.</p>"
           }
         }
       },
@@ -82,8 +82,8 @@
           "settings": {
             "image_width": 150,
             "heading_size": "h3",
-            "title": "Sign up for new stories and personal offers",
-            "content": ""
+            "title": "Restez informé de nos nouveautés",
+            "content": "<p>Inscrivez-vous à notre newsletter pour recevoir nos dernières collections, conseils et offres spéciales.</p>"
           }
         },
         "links": {
@@ -97,8 +97,8 @@
         "text": {
           "type": "text",
           "settings": {
-            "title": "About",
-            "content": "<p>Use this text area to tell your customers about your brand and vision. You can change it in the theme editor.</p>",
+            "title": "À propos de Maison Clairbois",
+            "content": "<p>Maison Clairbois crée des objets du quotidien qui allient fonctionnalité et élégance. Chaque produit est conçu avec soin pour embellir votre intérieur et simplifier votre vie.</p>",
             "enable_follow_on_shop": true
           }
         }

@@ -18,9 +18,9 @@
         "show_only_on_index": true,
         "show_only_for_visitors": true,
         "show_only_once": true,
-        "title": "Signup for our newsletter",
-        "button_text": "Subscribe",
-        "subtext": "Describe what your customers will receive when subscribing to your newsletter."
+        "title": "Rejoignez notre communauté",
+        "button_text": "S'abonner",
+        "subtext": "Recevez nos dernières actualités, conseils de décoration et offres exclusives directement dans votre boîte mail."
       }
     },
     "privacy-banner": {

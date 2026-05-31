@@ -19,10 +19,10 @@
             "content_max_width": 780,
             "mobile_text_position": "place-self-center text-center",
             "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Quand l'utile devient élégant. Bienvenue chez Maison Clairbois.",
+            "subheading": "Bienvenue chez Maison Clairbois",
+            "title": "Quand l'utile devient élégant",
             "heading_tag": "h4",
-            "button_text": "Je découvre",
+            "button_text": "Découvrir la collection",
             "button_link": "shopify://collections/all",
             "text_color": "#ffffff",
             "button_background": "#ffffff",
@@ -83,16 +83,16 @@
         "heading_7FUiyb": {
           "type": "heading",
           "settings": {
-            "text": "UN OBJET NOBLE POUR UN GESTE QUOTIDIEN",
-            "heading_tag": "h4",
-            "text_color": "#4b2e0d",
+            "text": "Un objet noble pour un geste quotidien",
+            "heading_tag": "h2",
+            "text_color": "#2c2c2c",
             "gradient": ""
           }
         },
         "richtext_4nX7r7": {
           "type": "richtext",
           "settings": {
-            "content": "<h6><em>Un chausse-pied en bois naturel, fixé au mur sans perçage,toujours là où vous en avez besoin,toujours beau à regarder. Parce que votre entrée mérite ce soin. Et votre dos aussi.</em></h6>"
+            "content": "<p>Un chausse-pied en bois naturel, fixé au mur sans perçage. Toujours là où vous en avez besoin, toujours beau à regarder. Parce que votre entrée mérite ce soin. Et votre dos aussi.</p>"
           }
         }
       },
@@ -106,9 +106,9 @@
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#ffffff",
+        "background": "#faf8f5",
         "background_gradient": "",
-        "text_color": "#000000"
+        "text_color": "#2c2c2c"
       }
     },
     "image_with_text_overlay_zcbg9Y": {
@@ -151,8 +151,8 @@
       "settings": {
         "full_width": true,
         "subheading": "",
-        "title": "",
-        "content": "",
+        "title": "Avant et après",
+        "content": "<p>Découvrez comment le chausse-pied Maison Clairbois transforme votre entrée en espace élégant et organisé.</p>",
         "before_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_08_41.png",
         "before_image_mobile": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_10_28.png",
         "after_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_20_34.png",
@@ -278,17 +278,17 @@
       "settings": {
         "full_width": true,
         "stack_testimonials": true,
-        "subheading": "",
-        "title": "",
+        "subheading": "Découvrez ce que nos clients pensent de Maison Clairbois",
+        "title": "Nos clients témoignent",
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "#ffffff",
+        "background": "#faf8f5",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "#f5f1eb",
+        "testimonial_card_background": "#ffffff",
         "testimonial_card_text_color": ""
       }
     },
@@ -318,6 +318,7 @@
         "enable_parallax": false,
         "image_size": "md",
         "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_26_57.png",
+        "mobile_image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_26_57_7ca8a7fc-6e8f-4247-b495-c899b5a51dc7.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
