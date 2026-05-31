@@ -500,15 +500,11 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "buy_buttons_9wHQDz": {
-          "type": "buy_buttons",
+        "kaching_bundles_app_block_yhFNiz": {
+          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
           "settings": {
-            "show_payment_button": true,
-            "show_gift_card_recipient": true,
-            "atc_button_background": "",
-            "atc_button_text_color": "",
-            "payment_button_background": "",
-            "payment_button_text_color": ""
+            "product": "chausse-pied-mural-magnetique-scandinave-maison-clairbois",
+            "manual_deal_block_id": ""
           }
         },
         "pickup_availability_QfG6Wx": {
@@ -526,7 +522,7 @@
         "description_nWegy8",
         "variant_picker_WPqtNF",
         "quantity_selector_MqUfU9",
-        "buy_buttons_9wHQDz",
+        "kaching_bundles_app_block_yhFNiz",
         "pickup_availability_QfG6Wx"
       ],
       "name": "Featured product",
@@ -547,6 +543,17 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
+    },
+    "1780232986faa04107": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -566,6 +573,7 @@
     "blocks_3krN3J",
     "image_with_text_overlay_wH8MCm",
     "blocks_PKPGRA",
-    "featured_product_YqJj7g"
+    "featured_product_YqJj7g",
+    "1780232986faa04107"
   ]
 }
