@@ -293,7 +293,8 @@
         "testimonial_9eHURj": {
           "type": "testimonial",
           "settings": {
-            "round_avatar": true,
+            "image": "shopify://shop_images/Capture_d_ecran_2026-05-31_a_02.45.31.png",
+            "round_avatar": false,
             "show_rating": true,
             "rating": 5,
             "author": "",
@@ -309,7 +310,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin et surtout c'est toujours un sujet de coversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Lyon</p><p>✓ Cliente vérifiée</p>"
+            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin et surtout c'est toujours un sujet de coversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Genève</p><p>✓ Cliente vérifiée</p>"
           }
         },
         "testimonial_6gxMn9": {
