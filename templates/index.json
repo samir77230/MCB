@@ -485,17 +485,6 @@
             "collapse_content": false
           }
         },
-        "variant_picker_WPqtNF": {
-          "type": "variant_picker",
-          "settings": {
-            "hide_sold_out_variants": false,
-            "stack_blocks": true,
-            "selector_style": "block",
-            "swatch_selector_style": "none",
-            "variant_image_options": "",
-            "size_chart_page": ""
-          }
-        },
         "quantity_selector_MqUfU9": {
           "type": "quantity_selector",
           "settings": {}
@@ -520,7 +509,6 @@
         "rating_xbUD3R",
         "separator_CXJNNp",
         "description_nWegy8",
-        "variant_picker_WPqtNF",
         "quantity_selector_MqUfU9",
         "kaching_bundles_app_block_yhFNiz",
         "pickup_availability_QfG6Wx"
