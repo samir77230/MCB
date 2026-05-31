@@ -127,76 +127,6 @@
         "text_gradient": ""
       }
     },
-    "collection-list": {
-      "type": "collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "",
-            "subheading": "",
-            "title": "",
-            "url": "",
-            "heading_tag": "h2",
-            "text_position": "place-self-center text-center",
-            "text_color": "#ffffff",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3"
-      ],
-      "disabled": true,
-      "settings": {
-        "full_width": true,
-        "stack_collections": false,
-        "collections_per_row_mobile": "1",
-        "collections_per_row": 3,
-        "show_progress_bar": false,
-        "subheading": "",
-        "title": "Collection list",
-        "content": "",
-        "link_url": "",
-        "link_text": "View all",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": ""
-      }
-    },
     "image_with_text_overlay_zcbg9Y": {
       "type": "image-with-text-overlay",
       "name": "Image with text overlay",
@@ -242,23 +172,6 @@
     },
     "impact-text": {
       "type": "impact-text",
-      "blocks": {
-        "1664424181b38582d5-0": {
-          "type": "item",
-          "settings": {
-            "title": "",
-            "subheading": "Showcase a benefit of your product",
-            "content": "",
-            "button_text": "",
-            "button_url": "",
-            "animate_impact_text": false,
-            "animate_impact_text_duration": 0.5
-          }
-        }
-      },
-      "block_order": [
-        "1664424181b38582d5-0"
-      ],
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -287,19 +200,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><strong>Je l'ai installé en 30 secondes, sans percer. Ça fait 6 mois qu'il est au mur. Mes invités me demandent tous où je l'ai trouvé.\"</strong></p><p><em>Thomas , 52 ans · Paris </em></p><p><em>✓ Client vérifié</em></p>"
-          }
-        },
-        "testimonial_9eHURj": {
-          "type": "testimonial",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_03_00_43.png",
-            "round_avatar": false,
-            "show_rating": true,
-            "rating": 5,
-            "author": "",
-            "title": "",
-            "content": "<p><em><strong>J'avais un chausse-pied en plastique qui traînait par terre depuis des années. Maintenant il est au mur et il embellit mon entrée. Je n'aurais jamais cru dire ça d'un chausse-pied.</strong></em></p><p>Laurent , 44 ans · Nantes<br/></p><p>✓ Client vérifié</p>"
+            "content": "<p><strong>Je l'ai installé en 30 secondes, sans percer. Ça fait 6 mois qu'il est au mur. Mes invités me demandent tous où je l'ai trouvé.\"</strong></p><p><em>Thomas , 52 ans · Paris </em></p><p><em>✓ Client vérifié</em></p><p></p><p></p>"
           }
         },
         "testimonial_pNNr6z": {
@@ -311,7 +212,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin et surtout c'est toujours un sujet de conversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Genève</p><p>✓ Cliente vérifiée</p>"
+            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin et surtout c'est toujours un sujet de conversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Genève</p><p>✓ Cliente vérifiée</p><p></p><p></p>"
           }
         },
         "testimonial_E6J3w7": {
@@ -326,6 +227,18 @@
             "content": "<p><em><strong>Mes invités le remarquent avant même d'enlever leur manteau. Ils pensent que c'est un objet déco. Quand je leur dis à quoi ça sert, ils veulent tous le même.</strong></em></p><p>Élise M, · 39 ans · Strasbourg</p><p><br/>✓ Cliente vérifiée</p>"
           }
         },
+        "testimonial_9eHURj": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_03_00_43.png",
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><em><strong>J'avais un chausse-pied en plastique qui traînait par terre depuis des années. Maintenant il est au mur et il embellit mon entrée. Je n'aurais jamais cru dire ça d'un chausse-pied.</strong></em></p><p>Laurent , 44 ans · Nantes<br/></p><p>✓ Client vérifié</p><p></p>"
+          }
+        },
         "testimonial_UEEQEm": {
           "type": "testimonial",
           "settings": {
@@ -335,7 +248,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><strong>Beau, solide, utile. Les trois à la fois, ça ne court pas les rues. Rien à redire.</strong></p><p>Joshua,  53 ans , Toulouse</p><p>✓ Cliente vérifiée</p>"
+            "content": "<p><strong>Beau, solide, utile. Les trois à la fois, ça ne court pas les rues. Rien à redire.</strong></p><p>Joshua,  43 ans , Toulouse</p><p>✓ Cliente vérifiée</p><p></p><p></p>"
           }
         },
         "testimonial_6gxMn9": {
@@ -353,9 +266,9 @@
       },
       "block_order": [
         "testimonial_JzcEfK",
-        "testimonial_9eHURj",
         "testimonial_pNNr6z",
         "testimonial_E6J3w7",
+        "testimonial_9eHURj",
         "testimonial_UEEQEm",
         "testimonial_6gxMn9"
       ],
@@ -364,7 +277,7 @@
         "full_width": true,
         "stack_testimonials": true,
         "subheading": "",
-        "title": "Nos clients en parlent le mieux",
+        "title": "",
         "content": "",
         "link_url": "",
         "link_text": "",
@@ -428,6 +341,46 @@
         "accordion_background": "",
         "accordion_text_color": ""
       }
+    },
+    "rich_text_FPJGeD": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_nwDikP": {
+          "type": "subheading",
+          "settings": {
+            "text": "Ils l'ont reçu. Ils l'ont utilisé. Voilà ce qu'ils en pensent."
+          }
+        },
+        "heading_bTNhjB": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1",
+            "text_color": "#4b2e0d",
+            "gradient": ""
+          }
+        },
+        "richtext_XLQJ6P": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Use this text to share information about your brand with your customers. Describe a product, share announcements, or welcome customers to your store.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nwDikP",
+        "heading_bTNhjB",
+        "richtext_XLQJ6P"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "full_width": true,
+        "content_width": "small",
+        "text_position": "center",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -435,11 +388,11 @@
     "image-with-text-overlay",
     "rich_text_3RHRQ3",
     "scrolling-text",
-    "collection-list",
     "image_with_text_overlay_zcbg9Y",
     "before-after-image",
     "impact-text",
     "testimonials_n36RPz",
-    "faq"
+    "faq",
+    "rich_text_FPJGeD"
   ]
 }
