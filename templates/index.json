@@ -76,7 +76,7 @@
             "custom_icon": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_40_18.png",
             "icon_width": 120,
             "icon_background_type": "none",
-            "icon_background": "",
+            "icon_background": "#ffffff",
             "icon_color": ""
           }
         },
@@ -288,7 +288,7 @@
         "text_color": "",
         "heading_color": "",
         "heading_gradient": "",
-        "testimonial_card_background": "",
+        "testimonial_card_background": "#f5f1eb",
         "testimonial_card_text_color": ""
       }
     },
