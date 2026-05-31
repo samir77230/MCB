@@ -422,6 +422,28 @@
         "overlay_opacity": 0
       }
     },
+    "blocks_PKPGRA": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_88d11f1_AfkJjD": {
+          "type": "ai_gen_block_88d11f1",
+          "settings": {
+            "divider_height": 2,
+            "divider_color": "#ffffff",
+            "border_radius": 0,
+            "desktop_width_percent": 100,
+            "spacing_top": 20,
+            "spacing_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_88d11f1_AfkJjD"
+      ],
+      "name": "Séparateur de section",
+      "settings": {}
+    },
     "featured_product_YqJj7g": {
       "type": "featured-product",
       "blocks": {
@@ -469,7 +491,7 @@
             "hide_sold_out_variants": false,
             "stack_blocks": true,
             "selector_style": "block",
-            "swatch_selector_style": "swatch",
+            "swatch_selector_style": "none",
             "variant_image_options": "",
             "size_chart_page": ""
           }
@@ -510,7 +532,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "",
+        "product": "chausse-pied-mural-magnetique-scandinave-maison-clairbois",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
@@ -525,28 +547,6 @@
         "input_background": "rgba(0,0,0,0)",
         "input_text_color": ""
       }
-    },
-    "blocks_PKPGRA": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_88d11f1_AfkJjD": {
-          "type": "ai_gen_block_88d11f1",
-          "settings": {
-            "divider_height": 2,
-            "divider_color": "#ffffff",
-            "border_radius": 0,
-            "desktop_width_percent": 100,
-            "spacing_top": 20,
-            "spacing_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_88d11f1_AfkJjD"
-      ],
-      "name": "Séparateur de section",
-      "settings": {}
     }
   },
   "order": [
