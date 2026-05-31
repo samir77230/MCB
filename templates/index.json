@@ -92,7 +92,7 @@
         "richtext_4nX7r7": {
           "type": "richtext",
           "settings": {
-            "content": "<h6>Un chausse-pied en bois naturel, fixé au mur sans perçage,toujours là où vous en avez besoin,toujours beau à regarder. Parce que votre entrée mérite ce soin. Et votre dos aussi.</h6>"
+            "content": "<h6><em>Un chausse-pied en bois naturel, fixé au mur sans perçage,toujours là où vous en avez besoin,toujours beau à regarder. Parce que votre entrée mérite ce soin. Et votre dos aussi.</em></h6>"
           }
         }
       },
@@ -281,13 +281,13 @@
         "testimonial_JzcEfK": {
           "type": "testimonial",
           "settings": {
-            "image": "shopify://shop_images/woman-applying-lip-balm.jpg",
-            "round_avatar": true,
+            "image": "shopify://shop_images/Capture_d_ecran_2026-05-29_a_21.44.10.png",
+            "round_avatar": false,
             "show_rating": true,
-            "rating": 4,
-            "author": "John S.",
-            "title": "Testimonial 1",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><strong>Je l'ai installé en 30 secondes, sans percer. Ça fait 6 mois qu'il est au mur. Mes invités me demandent tous où je l'ai trouvé.\"</strong></p><p><em>Thomas , 52 ans · Paris </em></p><p><em>✓ Client vérifié</em></p>"
           }
         },
         "testimonial_9eHURj": {
@@ -296,9 +296,42 @@
             "round_avatar": true,
             "show_rating": true,
             "rating": 5,
-            "author": "Mary U.",
-            "title": "Testimonial 2",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "author": "",
+            "title": "",
+            "content": "<p><em><strong>J'avais un chausse-pied en plastique qui traînait par terre depuis des années. Maintenant il est au mur et il embellit mon entrée. Je n'aurais jamais cru dire ça d'un chausse-pied.</strong></em></p><p>Laurent , 44 ans · Nantes<br/></p><p>✓ Client vérifié</p>"
+          }
+        },
+        "testimonial_pNNr6z": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin et surtout c'est toujours un sujet de coversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Lyon</p><p>✓ Cliente vérifiée</p>"
+          }
+        },
+        "testimonial_6gxMn9": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><em><strong>Mon entrée ressemble enfin à ce que j'avais imaginé. Rien ne traîne, tout est à sa place. Ce petit détail en bois au mur fait toute la différence.</strong></em></p><p>Isabelle, 41 ans · Bruxelles</p><p>✓ Client vérifié</p>"
+          }
+        },
+        "testimonial_E6J3w7": {
+          "type": "testimonial",
+          "settings": {
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><em><strong>Mes invités le remarquent avant même d'enlever leur manteau. Ils pensent que c'est un objet déco. Quand je leur dis à quoi ça sert, ils veulent tous le même.</strong></em></p><p>Élise M, · 39 ans · Strasbourg</p><p><br/>✓ Cliente vérifiée</p>"
           }
         },
         "testimonial_UEEQEm": {
@@ -307,16 +340,19 @@
             "image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_10_28.png",
             "round_avatar": true,
             "show_rating": true,
-            "rating": 4,
-            "author": "Joshua A.",
-            "title": "Testimonial 3",
-            "content": "<p>Share what your customers are saying about your products, customer service or shipping rates.</p>"
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><strong>Beau, solide, utile. Les trois à la fois, ça ne court pas les rues. Rien à redire.</strong></p><p>Joshua,  53 ans , Toulouse</p><p>✓ Cliente vérifiée</p>"
           }
         }
       },
       "block_order": [
         "testimonial_JzcEfK",
         "testimonial_9eHURj",
+        "testimonial_pNNr6z",
+        "testimonial_6gxMn9",
+        "testimonial_E6J3w7",
         "testimonial_UEEQEm"
       ],
       "name": "Testimonials",
@@ -324,11 +360,11 @@
         "full_width": true,
         "stack_testimonials": true,
         "subheading": "",
-        "title": "Testimonials",
+        "title": "Nos clients en parlent le mieux",
         "content": "",
         "link_url": "",
         "link_text": "",
-        "background": "",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "",
         "heading_color": "",
