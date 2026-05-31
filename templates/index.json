@@ -432,23 +432,6 @@
     },
     "blocks_3krN3J": {
       "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_88d11f1_BTPFQx": {
-          "type": "ai_gen_block_88d11f1",
-          "settings": {
-            "divider_height": 2,
-            "divider_color": "#ffffff",
-            "border_radius": 0,
-            "desktop_width_percent": 100,
-            "spacing_top": 20,
-            "spacing_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_88d11f1_BTPFQx"
-      ],
       "name": "Séparateur de section",
       "settings": {}
     },
