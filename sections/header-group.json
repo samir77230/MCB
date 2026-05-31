@@ -17,7 +17,7 @@
         "message_D3zhML": {
           "type": "message",
           "settings": {
-            "text": "Installation en 30 secondes",
+            "text": "Satisfait ou remboursé",
             "url": ""
           }
         },
@@ -31,7 +31,7 @@
         "message_tQAA6C": {
           "type": "message",
           "settings": {
-            "text": "Idée cadeau originale",
+            "text": "Fête des Pères jusqu'à -50%",
             "url": ""
           }
         },
@@ -61,7 +61,7 @@
         "enable_sticky": false,
         "autoplay": false,
         "cycle_speed": 6,
-        "text_size": "text-xs",
+        "text_size": "text-base",
         "navigation_mode": "scrolling",
         "scrolling_speed": 10,
         "background": "#ffffff",
