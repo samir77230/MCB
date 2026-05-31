@@ -85,7 +85,7 @@
           "settings": {
             "text": "Un objet noble pour un geste quotidien",
             "heading_tag": "h2",
-            "text_color": "#2c2c2c",
+            "text_color": "#000000",
             "gradient": ""
           }
         },
