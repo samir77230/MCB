@@ -330,6 +330,7 @@
         "ai_gen_block_88d11f1_xpd9rw": {
           "type": "ai_gen_block_88d11f1",
           "name": "Séparateur de section",
+          "disabled": true,
           "settings": {
             "divider_height": 2,
             "divider_color": "#ffffff",
@@ -381,6 +382,7 @@
         "ai_gen_block_88d11f1_f9XLbA": {
           "type": "ai_gen_block_88d11f1",
           "name": "Séparateur de section",
+          "disabled": true,
           "settings": {
             "divider_height": 2,
             "divider_color": "#ffffff",
@@ -418,7 +420,7 @@
         "full_width": true,
         "allow_transparent_header": false,
         "enable_parallax": false,
-        "image_size": "auto",
+        "image_size": "sm",
         "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_26_57.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
@@ -427,56 +429,42 @@
         "overlay_opacity": 0
       }
     },
-    "faq": {
-      "type": "faq",
+    "blocks_3krN3J": {
+      "type": "_blocks",
       "blocks": {
-        "166442457738b23caf-0": {
-          "type": "item",
+        "ai_gen_block_88d11f1_BTPFQx": {
+          "type": "ai_gen_block_88d11f1",
           "settings": {
-            "title": "Do you ship overseas?",
-            "content": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>"
-          }
-        },
-        "166442457738b23caf-1": {
-          "type": "item",
-          "settings": {
-            "title": "How long will it take to get my orders?",
-            "content": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.</p>"
-          }
-        },
-        "166442457738b23caf-2": {
-          "type": "item",
-          "settings": {
-            "title": "Any question?",
-            "content": "<p>You can contact us through our contact page! We will be happy to assist you.</p>"
-          }
+            "divider_height": 2,
+            "divider_color": "#ffffff",
+            "border_radius": 0,
+            "desktop_width_percent": 100,
+            "spacing_top": 20,
+            "spacing_bottom": 20
+          },
+          "blocks": {}
         }
       },
       "block_order": [
-        "166442457738b23caf-0",
-        "166442457738b23caf-1",
-        "166442457738b23caf-2"
+        "ai_gen_block_88d11f1_BTPFQx"
       ],
+      "name": "Séparateur de section",
+      "settings": {}
+    },
+    "image_with_text_overlay_wH8MCm": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
       "settings": {
-        "full_width": false,
-        "subheading": "",
-        "title": "FAQ",
-        "content": "<p>Use this text to share information about your product or shipping policies.</p>",
-        "team_avatar_width": 160,
-        "support_hours": "Our customer support is available Monday to Friday: 8am-8:30pm.",
-        "answer_time": "Average answer time: 24h",
-        "button_text": "",
-        "button_url": "",
-        "text_position": "start",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "",
-        "heading_color": "",
-        "heading_gradient": "",
-        "button_background": "",
-        "button_text_color": "",
-        "accordion_background": "",
-        "accordion_text_color": ""
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_37_59.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     }
   },
@@ -495,6 +483,7 @@
     "image_with_text_overlay_eJ66j9",
     "blocks_8HwAVe",
     "image_with_text_overlay_gH7mBi",
-    "faq"
+    "blocks_3krN3J",
+    "image_with_text_overlay_wH8MCm"
   ]
 }
