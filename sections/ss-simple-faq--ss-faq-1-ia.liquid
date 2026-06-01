@@ -1,0 +1,229 @@
+<div class="rb-faq-shopify-section">
+    <h1 style="text-align: center; padding: 20px 20px 0px 20px;"> {{ section.settings.heading }} </h1>
+    <div class="rb-faq-container">
+        {%for block in section.blocks %}
+        <div class="rb-faq-container-item">
+            <input style="display:none!important;" type="checkbox" id="tab{{forloop.index}}" class="tab-toggle">
+            <label for="tab{{forloop.index}}" class="rb-faq-question">{{block.settings.question}}</label>
+            <div class="rb-faq-answer">{{block.settings.answer}}</div>
+        </div>
+        {% endfor %}
+    </div>
+  </div>
+  {% schema %}
+{
+  "name": "SS - FAQ #1 IA",
+  "presets": [
+    {
+      "name": "SS - FAQ #1 IA",
+      "settings": {
+        "heading": "Questions fréquentes",
+        "icon_color": "#ffffff",
+        "hover_color": "#f5f0ea",
+        "question_color": "#ffffff",
+        "background_color": "#2c2c2c",
+        "answer_color": "#1a1a1a",
+        "answer_bg_color": "#ffffff",
+        "questions-font-size": 1.3
+      },
+      "category": "Custom sections",
+      "blocks": [
+        {
+          "type": "text",
+          "settings": {
+            "question": "Comment fonctionne la fixation magnétique ?",
+            "answer": "<p>Le chausse-pied mural magnétique Maison Clairbois se fixe au mur grâce à un support magnétique inclus. Aucun perçage n'est nécessaire pour l'utilisation quotidienne : il suffit de le replacer sur son support après chaque usage. L'aimant est suffisamment puissant pour maintenir le chausse-pied en place de manière fiable.</p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "question": "Quelles sont les dimensions du chausse-pied ?",
+            "answer": "<p>Le chausse-pied mesure 55 cm de longueur, une taille idéale pour enfiler vos chaussures confortablement sans avoir à vous baisser. Il est conçu pour s'intégrer élégamment dans votre entrée tout en restant parfaitement fonctionnel au quotidien.</p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "question": "Quels bois sont disponibles ?",
+            "answer": "<p>Nous proposons le chausse-pied mural magnétique en plusieurs essences de bois noble : chêne clair, noyer et noir. Chaque finition est soigneusement travaillée pour s'harmoniser avec votre intérieur et apporter une touche de raffinement à votre entrée.</p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "question": "Proposez-vous la livraison gratuite ?",
+            "answer": "<p>Oui, nous offrons la livraison standard gratuite sur toutes les commandes en France métropolitaine. Votre chausse-pied est expédié dans un emballage soigné pour garantir une réception en parfait état.</p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "question": "Quelle est votre politique de retour ?",
+            "answer": "<p>Si vous n'êtes pas entièrement satisfait de votre achat, vous disposez de 14 jours pour nous retourner le produit dans son emballage d'origine et en parfait état. Nous procéderons alors à un remboursement intégral. N'hésitez pas à nous contacter pour toute question.</p>"
+          }
+        },
+        {
+          "type": "text",
+          "settings": {
+            "question": "Le chausse-pied convient-il à tous les types de chaussures ?",
+            "answer": "<p>Absolument. Grâce à sa forme ergonomique et sa longueur de 55 cm, le chausse-pied Maison Clairbois s'adapte aussi bien aux baskets qu'aux chaussures de ville, bottes ou mocassins. Il préserve l'arrière de vos chaussures tout en vous offrant un confort d'utilisation optimal.</p>"
+          }
+        }
+      ]
+    }
+  ],
+  "settings": [
+    {
+      "type": "text",
+      "label": "Heading",
+      "id": "heading",
+      "default": "Frequently Asked Questions"
+    },
+    {
+      "type": "color",
+      "label": "Icon color",
+      "id": "icon_color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "label": "Question hover color",
+      "id": "hover_color",
+      "default": "#EFEFEF"
+    },
+    {
+      "type": "color",
+      "label": "Question color",
+      "id": "question_color",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "label": "Question Background color",
+      "id": "background_color",
+      "default": "#D5CAA6"
+    },
+    {
+      "type": "color",
+      "label": "Answer color",
+      "id": "answer_color",
+      "default": "#000"
+    },
+    {
+      "type": "color",
+      "label": "Answer Background color",
+      "id": "answer_bg_color",
+      "default": "#fff"
+    },
+    {
+      "type": "range",
+      "id": "questions-font-size",
+      "label": "Questions font size",
+      "default": 1.5,
+      "min": 0.8,
+      "max": 3.0,
+      "step": 0.1
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text",
+      "name": "Questions/Answer",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Question",
+          "id": "question",
+          "default": "Question text"
+        },
+        {
+          "type": "richtext",
+          "label": "Answer",
+          "id": "answer",
+          "default": "<p>Answer richtext</p>"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+
+  {% style %}
+
+    .rb-faq-answer a {
+      color: inherit;
+      text-decoration: inherit;
+    }
+
+    .rb-faq-shopify-section {
+      padding-right:30px;
+      padding-left:30px;
+      margin-bottom:50px
+    }
+
+    .rb-faq-container {
+        margin:auto;
+        max-width:1000px;
+        margin-top:20px;
+    }
+
+    .rb-faq-container-item {
+          border-radius: 8px;
+          margin-bottom:10px;
+          overflow: hidden;
+    }
+
+    .rb-faq-question::after{
+          color: {{section.settings.icon_color}};
+          content: '\276F';
+          transition: all 0.2s ease;
+      }
+
+    .rb-faq-question {
+        border-radius: 8px;
+        display:flex !important;
+        justify-content: space-between;
+        background-color:{{section.settings.background_color}};
+        padding:15px 20px;
+        font-weight: bold;
+        color: {{section.settings.question_color}};
+        font-size: {{section.settings.questions-font-size}}rem;
+    }
+
+    .rb-faq-question:hover {
+          color: {{section.settings.hover_color}};
+      }
+    .rb-faq-answer {
+          padding: 0px 20px;
+          position: relative;
+          width: 100%;
+          height: 0;
+          opacity: 0;
+          overflow: hidden;
+          visibility: hidden;
+          will-change: height;
+          transform: translateY(25px);
+          transition: all .2s ease;
+          -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+    }
+    .tab-toggle:checked ~ .rb-faq-answer {
+      transform: translateY(0);
+      padding: 15px 20px;
+      height:auto;
+      opacity: 1;
+      overflow: unset;
+      visibility: visible;
+      transition: all .3s ease,opacity 1s ease,height .3s ease;
+      color: {{section.settings.answer_color}};
+      background-color: {{section.settings.answer_bg_color}};
+    }
+    .tab-toggle:checked ~ .rb-faq-question::after {
+          transform: rotate(90deg);
+    }
+    .tab-toggle{
+          display:none;
+    }
+  {% endstyle %}
