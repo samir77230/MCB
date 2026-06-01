@@ -88,25 +88,18 @@
             "text_color": "#000000",
             "gradient": ""
           }
-        },
-        "richtext_4nX7r7": {
-          "type": "richtext",
-          "settings": {
-            "content": "<p>Un chausse-pied en bois naturel, fixé au mur sans perçage. Toujours là où vous en avez besoin, toujours beau à regarder. Parce que votre entrée mérite ce soin. Et votre dos aussi.</p>"
-          }
         }
       },
       "block_order": [
         "icon_D74rwy",
-        "heading_7FUiyb",
-        "richtext_4nX7r7"
+        "heading_7FUiyb"
       ],
       "name": "Rich text",
       "settings": {
         "full_width": true,
         "content_width": "medium",
         "text_position": "center",
-        "background": "#faf8f5",
+        "background": "#ffffff",
         "background_gradient": "",
         "text_color": "#2c2c2c"
       }
