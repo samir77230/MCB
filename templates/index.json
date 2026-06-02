@@ -543,6 +543,31 @@
         "text_color": ""
       }
     },
+    "1780402187d4c6268d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d3b57b6_DcU8jM": {
+          "type": "ai_gen_block_d3b57b6",
+          "settings": {
+            "image_1": "shopify://shop_images/Etape01_1000x1000_09baf8d1-5993-46aa-b752-9ea653339275.png",
+            "image_2": "shopify://shop_images/Etape02_1000x1000_cb532fbb-22e4-42cd-b3d4-08c273031f25.png",
+            "image_3": "shopify://shop_images/Etape03_1000x1000_59b97f79-3efe-4fd2-b522-0692d1b56679.png",
+            "scroll_speed": 10,
+            "slide_width": 30,
+            "slide_width_mobile": 80,
+            "slide_spacing": 12,
+            "desktop_width_percent": 100,
+            "border_radius": 12,
+            "image_border_radius": 32
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d3b57b6_DcU8jM"
+      ],
+      "settings": {}
+    },
     "custom_liquid_WK6mkh": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -609,31 +634,6 @@
         "text_color": ""
       }
     },
-    "1780402187d4c6268d": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_d3b57b6_DcU8jM": {
-          "type": "ai_gen_block_d3b57b6",
-          "settings": {
-            "image_1": "shopify://shop_images/Etape01_1000x1000_09baf8d1-5993-46aa-b752-9ea653339275.png",
-            "image_2": "shopify://shop_images/Etape02_1000x1000_cb532fbb-22e4-42cd-b3d4-08c273031f25.png",
-            "image_3": "shopify://shop_images/Etape03_1000x1000_59b97f79-3efe-4fd2-b522-0692d1b56679.png",
-            "scroll_speed": 10,
-            "slide_width": 30,
-            "slide_width_mobile": 80,
-            "slide_spacing": 12,
-            "desktop_width_percent": 100,
-            "border_radius": 12,
-            "image_border_radius": 32
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_d3b57b6_DcU8jM"
-      ],
-      "settings": {}
-    },
     "custom_liquid_BW4h9D": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -679,10 +679,10 @@
     "blocks_PKPGRA",
     "featured_product_YqJj7g",
     "custom_liquid_WhWta4",
+    "1780402187d4c6268d",
     "custom_liquid_WK6mkh",
     "17804141537086cf56",
     "custom_liquid_6RDUiy",
-    "1780402187d4c6268d",
     "custom_liquid_BW4h9D",
     "1780232986faa04107"
   ]
