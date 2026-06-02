@@ -20,8 +20,8 @@
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
-            "subheading": "",
-            "title": "Le chausse-pied qui embellit votre entrée.",
+            "subheading": "Le chausse-pied qui embellit votre entrée.",
+            "title": "Un chausse pied élégant, toujours à portée de main grâce à son support mural",
             "heading_tag": "h3",
             "button_text": "",
             "button_link": "",
@@ -373,43 +373,6 @@
         "overlay_opacity": 0
       }
     },
-    "blocks_8HwAVe": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_88d11f1_f9XLbA": {
-          "type": "ai_gen_block_88d11f1",
-          "name": "Séparateur de section",
-          "disabled": true,
-          "settings": {
-            "divider_height": 2,
-            "divider_color": "#ffffff",
-            "border_radius": 0,
-            "desktop_width_percent": 100,
-            "spacing_top": 20,
-            "spacing_bottom": 20
-          },
-          "blocks": {}
-        },
-        "ai_gen_block_88d11f1_mQy8gN": {
-          "type": "ai_gen_block_88d11f1",
-          "settings": {
-            "divider_height": 2,
-            "divider_color": "#ffffff",
-            "border_radius": 0,
-            "desktop_width_percent": 100,
-            "spacing_top": 20,
-            "spacing_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_88d11f1_f9XLbA",
-        "ai_gen_block_88d11f1_mQy8gN"
-      ],
-      "name": "Séparateur de section",
-      "settings": {}
-    },
     "blocks_3krN3J": {
       "type": "_blocks",
       "name": "Séparateur de section",
@@ -670,6 +633,19 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "custom_liquid_jKMpkq": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .mcb-pain {\n    background: #FAF5F2;\n    padding: 52px 24px 40px;\n    text-align: center;\n  }\n  .mcb-pain-titre {\n    font-family: Georgia, serif;\n    font-size: 26px;\n    font-weight: 400;\n    color: #1A1A1A;\n    margin: 0 0 6px;\n    line-height: 1.3;\n  }\n  .mcb-pain-divider {\n    width: 40px;\n    height: 2px;\n    background: #E0D5CC;\n    margin: 0 auto 36px;\n    border: none;\n  }\n  .mcb-pain-grid {\n    display: flex;\n    justify-content: center;\n    gap: 16px;\n    flex-wrap: wrap;\n    margin-bottom: 32px;\n  }\n  .mcb-pain-card {\n    background: #fff;\n    border-radius: 12px;\n    padding: 24px 20px 20px;\n    width: 190px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    box-shadow: 0 1px 4px rgba(0,0,0,0.05);\n  }\n  .mcb-pain-icon-wrap {\n    width: 72px;\n    height: 72px;\n    border-radius: 50%;\n    background: #F5EDE8;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .mcb-pain-icon-wrap svg {\n    width: 36px;\n    height: 36px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n  .mcb-pain-card-text {\n    font-size: 14px;\n    color: #1A1A1A;\n    line-height: 1.45;\n    margin: 0;\n    font-family: Georgia, serif;\n  }\n  .mcb-pain-conclusion {\n    font-family: Georgia, serif;\n    font-size: 16px;\n    font-style: italic;\n    color: #6B3A2A;\n    margin: 0;\n    line-height: 1.6;\n  }\n  @media (max-width: 600px) {\n    .mcb-pain-titre { font-size: 20px; }\n    .mcb-pain-grid { gap: 12px; }\n    .mcb-pain-card { width: calc(50% - 6px); padding: 18px 14px; }\n  }\n</style>\n\n<div class=\"mcb-pain\">\n  <h2 class=\"mcb-pain-titre\">Combien de fois vous êtes-vous baissé aujourd'hui ?</h2>\n  <hr class=\"mcb-pain-divider\">\n\n  <div class=\"mcb-pain-grid\">\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n       <svg viewBox=\"0 0 40 40\">\n  <!-- Semelle -->\n  <path d=\"M4 28 Q4 32 8 32 L34 32 Q38 32 38 29 Q38 27 34 27 L28 27\"/>\n  <!-- Corps de la chaussure -->\n  <path d=\"M8 27 Q8 18 14 17 Q18 16 20 18 L28 27\"/>\n  <!-- Languette -->\n  <path d=\"M14 17 Q15 13 18 13 Q21 13 22 16\"/>\n  <!-- Lacets -->\n  <line x1=\"15\" y1=\"20\" x2=\"22\" y2=\"19\"/>\n  <line x1=\"15\" y1=\"23\" x2=\"23\" y2=\"22\"/>\n</svg>\n\n          <circle cx=\"20\" cy=\"8\" r=\"4\"/>\n          <path d=\"M20 12 L20 22\"/>\n          <path d=\"M20 22 L12 34\"/>\n          <path d=\"M20 22 L28 30\"/>\n          <path d=\"M14 18 L26 22\"/>\n          <path d=\"M12 34 L16 34\"/>\n          <path d=\"M28 30 L32 30\"/>\n          <!-- Dos courbé -->\n          <path d=\"M20 12 Q16 18 12 20\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour enfiler<br>vos chaussures</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Loupe -->\n          <circle cx=\"17\" cy=\"17\" r=\"9\"/>\n          <line x1=\"24\" y1=\"24\" x2=\"33\" y2=\"33\"/>\n          <!-- Point d'interrogation -->\n          <path d=\"M14 14 Q14 11 17 11 Q20 11 20 14 Q20 16 17 17\"/>\n          <circle cx=\"17\" cy=\"20\" r=\"0.8\" fill=\"#6B3A2A\" stroke=\"none\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour chercher<br>votre chausse-pied</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Tiroir -->\n          <rect x=\"6\" y=\"8\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <rect x=\"6\" y=\"22\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <circle cx=\"20\" cy=\"13\" r=\"2\"/>\n          <circle cx=\"20\" cy=\"27\" r=\"2\"/>\n          <!-- Flèche qui sort du tiroir ouvert -->\n          <path d=\"M6 18 L6 22\"/>\n          <path d=\"M34 18 L34 22\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour le récupérer<br>au fond d'un tiroir</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Panier / rangement -->\n          <path d=\"M8 16 L10 30 L30 30 L32 16 Z\"/>\n          <path d=\"M5 16 L35 16\"/>\n          <path d=\"M14 16 L12 10\"/>\n          <path d=\"M26 16 L28 10\"/>\n          <line x1=\"14\" y1=\"22\" x2=\"26\" y2=\"22\"/>\n          <line x1=\"13\" y1=\"26\" x2=\"27\" y2=\"26\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour ranger ce qui<br>devrait rester<br>à portée de main</p>\n    </div>\n\n  </div>\n\n  <p class=\"mcb-pain-conclusion\">Maison Clairbois a été conçu pour mettre fin<br>à ces gestes répétitifs du quotidien.</p>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -686,7 +662,6 @@
     "178019223753940044",
     "blocks_aUe7jB",
     "image_with_text_overlay_eJ66j9",
-    "blocks_8HwAVe",
     "blocks_3krN3J",
     "image_with_text_overlay_wH8MCm",
     "blocks_PKPGRA",
@@ -697,6 +672,7 @@
     "17804141537086cf56",
     "custom_liquid_6RDUiy",
     "custom_liquid_BW4h9D",
-    "1780232986faa04107"
+    "1780232986faa04107",
+    "custom_liquid_jKMpkq"
   ]
 }
