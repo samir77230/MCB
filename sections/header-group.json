@@ -17,7 +17,7 @@
         "message_D3zhML": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé",
+            "text": "Satisfait ou remboursé 30 jours",
             "url": ""
           }
         },
@@ -31,21 +31,21 @@
         "message_tQAA6C": {
           "type": "message",
           "settings": {
-            "text": "Fête des Pères jusqu'à -50%",
+            "text": "Fête des Pères — Offrez L'Essentiel -30%",
             "url": ""
           }
         },
         "message_VgPnUx": {
           "type": "message",
           "settings": {
-            "text": "Fixation sans perçage",
+            "text": "Mur préservé — zéro perçage",
             "url": ""
           }
         },
         "message": {
           "type": "message",
           "settings": {
-            "text": "Livraison rapide",
+            "text": "Expédié en 24h",
             "url": ""
           }
         }
