@@ -71,13 +71,12 @@
     },
     "header": {
       "type": "header",
-      "disabled": true,
       "settings": {
-        "enable_sticky": false,
+        "enable_sticky": true,
         "hide_on_scroll": false,
-        "logo": "shopify://shop_images/LOGO_MCB.png",
-        "logo_max_width": 135,
-        "logo_mobile_max_width": 100,
+        "logo": "shopify://shop_images/Capture_d_ecran_2026-06-02_a_23.36.55-removebg-preview.png",
+        "logo_max_width": 40,
+        "logo_mobile_max_width": 25,
         "menu": "main-menu",
         "sidebar_menu": "",
         "secondary_menu": "",
