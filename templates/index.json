@@ -21,7 +21,7 @@
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "L'objet que votre intérieur attendait.      Celui que votre dos réclamait.",
+            "title": "Le chausse-pied qui embellit votre entrée.",
             "heading_tag": "h3",
             "button_text": "",
             "button_link": "",
@@ -84,7 +84,7 @@
         "heading_7FUiyb": {
           "type": "heading",
           "settings": {
-            "text": "Toujours là où vous en avez besoin.Jamais là où il dérange.",
+            "text": "Un intérieur bien pensé.",
             "heading_tag": "h2",
             "text_color": "#000000",
             "gradient": ""
@@ -97,12 +97,12 @@
       ],
       "name": "Rich text",
       "settings": {
-        "full_width": true,
-        "content_width": "medium",
+        "full_width": false,
+        "content_width": "large",
         "text_position": "center",
         "background": "#ffffff",
         "background_gradient": "",
-        "text_color": "#2c2c2c"
+        "text_color": "#1a1a1a"
       }
     },
     "image_with_text_overlay_zcbg9Y": {
@@ -146,7 +146,7 @@
         "full_width": true,
         "subheading": "Avant et après",
         "title": "Ne le cachez plus",
-        "content": "<p>Le chausse-pied qui embellit votre entrée.</p>",
+        "content": "<p>L'objet que votre intérieur attendait.      Celui que votre dos réclamait.</p>",
         "before_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_08_41.png",
         "before_image_mobile": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_10_28.png",
         "after_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_20_34.png",
@@ -221,7 +221,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin et surtout c'est toujours un sujet de conversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Genève</p><p>✓ Cliente vérifiée</p><p></p><p></p>"
+            "content": "<p><em><strong>Mon mari l'a commandé, j'étais sceptique. Maintenant c'est moi qui ne peux plus m'en passer. Plus jamais à me tordre le dos le matin il est super léger et surtout c'est toujours un sujet de conversation avec nos invités !</strong></em></p><p>Sophie, 47 ans · Genève</p><p>✓ Cliente vérifiée</p><p></p><p></p>"
           }
         },
         "testimonial_E6J3w7": {
