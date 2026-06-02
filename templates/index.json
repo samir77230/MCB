@@ -299,22 +299,94 @@
         "testimonial_card_text_color": ""
       }
     },
-    "image_with_text_overlay_AVKyL4": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "name": "Image with text overlay",
+    "slideshow_pFrATQ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mByL4H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a465c77b-0af2-4388-82d1-724b7b7474ec.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Un bel objet vous attend",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_rDiUmL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d7043582-adbf-4edd-a3fc-1a2112989b18.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Un geste plus simple",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mByL4H",
+        "image_rDiUmL"
+      ],
+      "name": "Slideshow",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_03_32_48.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#f2f2f2",
+        "background_gradient": ""
       }
+    },
+    "1780402187d4c6268d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d3b57b6_DcU8jM": {
+          "type": "ai_gen_block_d3b57b6",
+          "settings": {
+            "image_1": "shopify://shop_images/Etape01_1000x1000_09baf8d1-5993-46aa-b752-9ea653339275.png",
+            "image_2": "shopify://shop_images/Etape02_1000x1000_cb532fbb-22e4-42cd-b3d4-08c273031f25.png",
+            "image_3": "shopify://shop_images/Etape03_1000x1000_59b97f79-3efe-4fd2-b522-0692d1b56679.png",
+            "scroll_speed": 10,
+            "slide_width": 30,
+            "slide_width_mobile": 80,
+            "slide_spacing": 12,
+            "desktop_width_percent": 100,
+            "border_radius": 12,
+            "image_border_radius": 32
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d3b57b6_DcU8jM"
+      ],
+      "settings": {}
     },
     "scrolling_text_4rV9t3": {
       "type": "scrolling-text",
@@ -354,44 +426,6 @@
         "ai_gen_block_88d11f1_xpd9rw"
       ],
       "settings": {}
-    },
-    "blocks_G43rAn": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_88d11f1_kYEMyn": {
-          "type": "ai_gen_block_88d11f1",
-          "settings": {
-            "divider_height": 2,
-            "divider_color": "#ffffff",
-            "border_radius": 0,
-            "desktop_width_percent": 100,
-            "spacing_top": 20,
-            "spacing_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_88d11f1_kYEMyn"
-      ],
-      "name": "Séparateur de section",
-      "settings": {}
-    },
-    "image_with_text_overlay_W9BknY": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_13_03_38.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     },
     "blocks_aUe7jB": {
       "type": "_blocks",
@@ -594,94 +628,18 @@
         "text_color": ""
       }
     },
-    "slideshow_pFrATQ": {
-      "type": "slideshow",
-      "blocks": {
-        "image_mByL4H": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/a465c77b-0af2-4388-82d1-724b7b7474ec.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Un bel objet vous attend",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        },
-        "image_rDiUmL": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/d7043582-adbf-4edd-a3fc-1a2112989b18.png",
-            "content_max_width": 780,
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "subheading": "",
-            "title": "Un geste plus simple",
-            "heading_tag": "h2",
-            "button_text": "",
-            "button_link": "",
-            "text_color": "#ffffff",
-            "button_background": "#ffffff",
-            "button_text_color": "#000000",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30,
-            "background": "",
-            "background_gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "image_mByL4H",
-        "image_rDiUmL"
-      ],
-      "name": "Slideshow",
+    "custom_liquid_WhWta4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "allow_transparent_header": true,
-        "show_initial_transition": false,
-        "image_size": "auto",
-        "controls_type": "dots",
-        "transition_type": "fade_with_text",
-        "autoplay": false,
-        "cycle_speed": 6,
-        "background": "#f2f2f2",
-        "background_gradient": ""
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .mcb-install {\n    text-align: center;\n    padding: 40px 20px;\n    background: #FAF5F2;\n  }\n  .mcb-install-titre {\n    font-family: Georgia, serif;\n    font-size: 32px;\n    font-weight: 700;\n    color: #1A1A1A;\n    margin: 0 0 20px;\n    line-height: 1.2;\n  }\n  .mcb-install-titre span {\n    color: #6B3A2A;\n  }\n  .mcb-install-items {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 40px;\n    flex-wrap: wrap;\n    margin: 0;\n  }\n  .mcb-install-item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 15px;\n    color: #1A1A1A;\n    font-family: Georgia, serif;\n  }\n  .mcb-install-item svg {\n    width: 22px;\n    height: 22px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.8;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .mcb-install-titre { font-size: 24px; }\n    .mcb-install-items { gap: 20px; flex-direction: column; }\n  }\n</style>\n\n<div class=\"mcb-install\">\n  <h2 class=\"mcb-install-titre\">Installation en moins de <span>30 secondes</span></h2>\n  <div class=\"mcb-install-items\">\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>\n      </svg>\n      Sans perçage.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M3 3l18 18M10.5 10.677a2.5 2.5 0 0 0 3.823 3.823\"/>\n        <path d=\"M17.464 6.536A6 6 0 0 1 6.536 17.464M13.5 13.5l4 4\"/>\n        <path d=\"M6 6l4 4\"/>\n      </svg>\n      Sans outil.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n        <polyline points=\"22 4 12 14.01 9 11.01\"/>\n      </svg>\n      Sans effort.\n    </div>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
       }
-    },
-    "1780402187d4c6268d": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_d3b57b6_DcU8jM": {
-          "type": "ai_gen_block_d3b57b6",
-          "settings": {
-            "image_1": "shopify://shop_images/Etape01_1000x1000_09baf8d1-5993-46aa-b752-9ea653339275.png",
-            "image_2": "shopify://shop_images/Etape02_1000x1000_cb532fbb-22e4-42cd-b3d4-08c273031f25.png",
-            "image_3": "shopify://shop_images/Etape03_1000x1000_59b97f79-3efe-4fd2-b522-0692d1b56679.png",
-            "scroll_speed": 10,
-            "slide_width": 30,
-            "slide_width_mobile": 80,
-            "slide_spacing": 12,
-            "desktop_width_percent": 100,
-            "border_radius": 12,
-            "image_border_radius": 32
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_d3b57b6_DcU8jM"
-      ],
-      "settings": {}
     }
   },
   "order": [
@@ -694,11 +652,10 @@
     "impact-text",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
-    "image_with_text_overlay_AVKyL4",
+    "1780402187d4c6268d",
+    "slideshow_pFrATQ",
     "scrolling_text_4rV9t3",
     "178019223753940044",
-    "blocks_G43rAn",
-    "image_with_text_overlay_W9BknY",
     "blocks_aUe7jB",
     "image_with_text_overlay_eJ66j9",
     "blocks_8HwAVe",
@@ -707,7 +664,6 @@
     "blocks_PKPGRA",
     "featured_product_YqJj7g",
     "1780232986faa04107",
-    "slideshow_pFrATQ",
-    "1780402187d4c6268d"
+    "custom_liquid_WhWta4"
   ]
 }
