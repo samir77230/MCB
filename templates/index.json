@@ -51,6 +51,19 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "custom_liquid_jKMpkq": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .mcb-pain {\n    background: #FAF5F2;\n    padding: 52px 24px 40px;\n    text-align: center;\n  }\n  .mcb-pain-titre {\n    font-family: Georgia, serif;\n    font-size: 26px;\n    font-weight: 400;\n    color: #1A1A1A;\n    margin: 0 0 6px;\n    line-height: 1.3;\n  }\n  .mcb-pain-divider {\n    width: 40px;\n    height: 2px;\n    background: #E0D5CC;\n    margin: 0 auto 36px;\n    border: none;\n  }\n  .mcb-pain-grid {\n    display: flex;\n    justify-content: center;\n    gap: 16px;\n    flex-wrap: wrap;\n    margin-bottom: 32px;\n  }\n  .mcb-pain-card {\n    background: #fff;\n    border-radius: 12px;\n    padding: 24px 20px 20px;\n    width: 190px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    box-shadow: 0 1px 4px rgba(0,0,0,0.05);\n  }\n  .mcb-pain-icon-wrap {\n    width: 72px;\n    height: 72px;\n    border-radius: 50%;\n    background: #F5EDE8;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .mcb-pain-icon-wrap svg {\n    width: 36px;\n    height: 36px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n  .mcb-pain-card-text {\n    font-size: 14px;\n    color: #1A1A1A;\n    line-height: 1.45;\n    margin: 0;\n    font-family: Georgia, serif;\n  }\n  .mcb-pain-conclusion {\n    font-family: Georgia, serif;\n    font-size: 16px;\n    font-style: italic;\n    color: #6B3A2A;\n    margin: 0;\n    line-height: 1.6;\n  }\n  @media (max-width: 600px) {\n    .mcb-pain-titre { font-size: 20px; }\n    .mcb-pain-grid { gap: 12px; }\n    .mcb-pain-card { width: calc(50% - 6px); padding: 18px 14px; }\n  }\n</style>\n\n<div class=\"mcb-pain\">\n  <h2 class=\"mcb-pain-titre\">Combien de fois vous êtes-vous baissé aujourd'hui ?</h2>\n  <hr class=\"mcb-pain-divider\">\n\n  <div class=\"mcb-pain-grid\">\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n       <svg viewBox=\"0 0 40 40\">\n  <!-- Semelle -->\n  <path d=\"M4 28 Q4 32 8 32 L34 32 Q38 32 38 29 Q38 27 34 27 L28 27\"/>\n  <!-- Corps de la chaussure -->\n  <path d=\"M8 27 Q8 18 14 17 Q18 16 20 18 L28 27\"/>\n  <!-- Languette -->\n  <path d=\"M14 17 Q15 13 18 13 Q21 13 22 16\"/>\n  <!-- Lacets -->\n  <line x1=\"15\" y1=\"20\" x2=\"22\" y2=\"19\"/>\n  <line x1=\"15\" y1=\"23\" x2=\"23\" y2=\"22\"/>\n</svg>\n\n          <circle cx=\"20\" cy=\"8\" r=\"4\"/>\n          <path d=\"M20 12 L20 22\"/>\n          <path d=\"M20 22 L12 34\"/>\n          <path d=\"M20 22 L28 30\"/>\n          <path d=\"M14 18 L26 22\"/>\n          <path d=\"M12 34 L16 34\"/>\n          <path d=\"M28 30 L32 30\"/>\n          <!-- Dos courbé -->\n          <path d=\"M20 12 Q16 18 12 20\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour enfiler<br>vos chaussures</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Loupe -->\n          <circle cx=\"17\" cy=\"17\" r=\"9\"/>\n          <line x1=\"24\" y1=\"24\" x2=\"33\" y2=\"33\"/>\n          <!-- Point d'interrogation -->\n          <path d=\"M14 14 Q14 11 17 11 Q20 11 20 14 Q20 16 17 17\"/>\n          <circle cx=\"17\" cy=\"20\" r=\"0.8\" fill=\"#6B3A2A\" stroke=\"none\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour chercher<br>votre chausse-pied</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Tiroir -->\n          <rect x=\"6\" y=\"8\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <rect x=\"6\" y=\"22\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <circle cx=\"20\" cy=\"13\" r=\"2\"/>\n          <circle cx=\"20\" cy=\"27\" r=\"2\"/>\n          <!-- Flèche qui sort du tiroir ouvert -->\n          <path d=\"M6 18 L6 22\"/>\n          <path d=\"M34 18 L34 22\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour le récupérer<br>au fond d'un tiroir</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Panier / rangement -->\n          <path d=\"M8 16 L10 30 L30 30 L32 16 Z\"/>\n          <path d=\"M5 16 L35 16\"/>\n          <path d=\"M14 16 L12 10\"/>\n          <path d=\"M26 16 L28 10\"/>\n          <line x1=\"14\" y1=\"22\" x2=\"26\" y2=\"22\"/>\n          <line x1=\"13\" y1=\"26\" x2=\"27\" y2=\"26\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour ranger ce qui<br>devrait rester<br>à portée de main</p>\n    </div>\n\n  </div>\n\n  <p class=\"mcb-pain-conclusion\">Maison Clairbois a été conçu pour mettre fin<br>à ces gestes répétitifs du quotidien.</p>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "#000000"
+      }
+    },
     "image-with-text-overlay": {
       "type": "image-with-text-overlay",
       "settings": {
@@ -105,23 +118,6 @@
         "text_color": "#1a1a1a"
       }
     },
-    "image_with_text_overlay_zcbg9Y": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_18_52_24.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_18_52_24.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "image_with_text_overlay_NE4VqJ": {
       "type": "image-with-text-overlay",
       "disabled": true,
@@ -138,32 +134,6 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
-      }
-    },
-    "before-after-image": {
-      "type": "before-after-image",
-      "settings": {
-        "full_width": true,
-        "subheading": "Avant et après",
-        "title": "Ne le cachez plus",
-        "content": "<p>L'objet que votre intérieur attendait.      Celui que votre dos réclamait.</p>",
-        "before_image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_08_04.png",
-        "before_image_mobile": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_08_04.png",
-        "after_image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_02_23.png",
-        "after_image_mobile": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_02_23.png",
-        "expand_image": true,
-        "text_position": "center",
-        "before_after_text_position": "top",
-        "before_text": "Avant",
-        "after_text": "Après",
-        "drag_initial_position": 50,
-        "background": "",
-        "background_gradient": "",
-        "text_color": "",
-        "before_text_color": "#000000",
-        "after_text_color": "#ffffff",
-        "drag_cursor_background": "#ffffff",
-        "drag_cursor_color": "#000000"
       }
     },
     "impact-text": {
@@ -184,6 +154,38 @@
         "button_text_color": ""
       }
     },
+    "image_with_text_overlay_kWFHQh": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_21_48_41.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_overlay_4LM3gg": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_21_42_24.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "custom_liquid_AXwfaf": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -200,6 +202,18 @@
     "testimonials_n36RPz": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_hzVUje": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/a465c77b-0af2-4388-82d1-724b7b7474ec.png",
+            "round_avatar": false,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><strong>Je ne pensais pas qu’un simple chausse-pied pouvait avoir autant d’impact sur mon quotidien. Aujourd’hui, il est toujours à portée de main grâce à son support mural, je n’ai presque plus besoin de me pencher pour enfiler mes chaussures et mon entrée paraît beaucoup plus élégante et organisée. C’est le genre de détail que l’on apprécie un peu plus chaque jour.</strong></p><p><em>Julie, 40 ans , Lyon</em></p><p><em>✓ Client vérifié</em></p>"
+          }
+        },
         "testimonial_JzcEfK": {
           "type": "testimonial",
           "settings": {
@@ -209,7 +223,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><strong>Je l'ai installé en 30 secondes, sans percer. Ça fait 6 mois qu'il est au mur. Mes invités me demandent tous où je l'ai trouvé.\"</strong></p><p><em>Thomas , 52 ans · Paris </em></p><p><em>✓ Client vérifié</em></p><p></p><p></p><p></p><p></p><p></p>"
+            "content": "<p><strong>Je l'ai installé en 30 secondes, sans percer. Ça fait 6 mois qu'il est au mur. Mes invités me demandent tous où je l'ai trouvé.</strong></p><p><em>Thomas , 52 ans · Paris </em></p><p><em>✓ Client vérifié</em></p><p></p><p></p><p></p><p></p><p></p>"
           }
         },
         "testimonial_pNNr6z": {
@@ -286,6 +300,7 @@
         }
       },
       "block_order": [
+        "testimonial_hzVUje",
         "testimonial_JzcEfK",
         "testimonial_pNNr6z",
         "testimonial_E6J3w7",
@@ -633,29 +648,17 @@
         "background_gradient": "",
         "text_color": ""
       }
-    },
-    "custom_liquid_jKMpkq": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .mcb-pain {\n    background: #FAF5F2;\n    padding: 52px 24px 40px;\n    text-align: center;\n  }\n  .mcb-pain-titre {\n    font-family: Georgia, serif;\n    font-size: 26px;\n    font-weight: 400;\n    color: #1A1A1A;\n    margin: 0 0 6px;\n    line-height: 1.3;\n  }\n  .mcb-pain-divider {\n    width: 40px;\n    height: 2px;\n    background: #E0D5CC;\n    margin: 0 auto 36px;\n    border: none;\n  }\n  .mcb-pain-grid {\n    display: flex;\n    justify-content: center;\n    gap: 16px;\n    flex-wrap: wrap;\n    margin-bottom: 32px;\n  }\n  .mcb-pain-card {\n    background: #fff;\n    border-radius: 12px;\n    padding: 24px 20px 20px;\n    width: 190px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    box-shadow: 0 1px 4px rgba(0,0,0,0.05);\n  }\n  .mcb-pain-icon-wrap {\n    width: 72px;\n    height: 72px;\n    border-radius: 50%;\n    background: #F5EDE8;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .mcb-pain-icon-wrap svg {\n    width: 36px;\n    height: 36px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n  .mcb-pain-card-text {\n    font-size: 14px;\n    color: #1A1A1A;\n    line-height: 1.45;\n    margin: 0;\n    font-family: Georgia, serif;\n  }\n  .mcb-pain-conclusion {\n    font-family: Georgia, serif;\n    font-size: 16px;\n    font-style: italic;\n    color: #6B3A2A;\n    margin: 0;\n    line-height: 1.6;\n  }\n  @media (max-width: 600px) {\n    .mcb-pain-titre { font-size: 20px; }\n    .mcb-pain-grid { gap: 12px; }\n    .mcb-pain-card { width: calc(50% - 6px); padding: 18px 14px; }\n  }\n</style>\n\n<div class=\"mcb-pain\">\n  <h2 class=\"mcb-pain-titre\">Combien de fois vous êtes-vous baissé aujourd'hui ?</h2>\n  <hr class=\"mcb-pain-divider\">\n\n  <div class=\"mcb-pain-grid\">\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n       <svg viewBox=\"0 0 40 40\">\n  <!-- Semelle -->\n  <path d=\"M4 28 Q4 32 8 32 L34 32 Q38 32 38 29 Q38 27 34 27 L28 27\"/>\n  <!-- Corps de la chaussure -->\n  <path d=\"M8 27 Q8 18 14 17 Q18 16 20 18 L28 27\"/>\n  <!-- Languette -->\n  <path d=\"M14 17 Q15 13 18 13 Q21 13 22 16\"/>\n  <!-- Lacets -->\n  <line x1=\"15\" y1=\"20\" x2=\"22\" y2=\"19\"/>\n  <line x1=\"15\" y1=\"23\" x2=\"23\" y2=\"22\"/>\n</svg>\n\n          <circle cx=\"20\" cy=\"8\" r=\"4\"/>\n          <path d=\"M20 12 L20 22\"/>\n          <path d=\"M20 22 L12 34\"/>\n          <path d=\"M20 22 L28 30\"/>\n          <path d=\"M14 18 L26 22\"/>\n          <path d=\"M12 34 L16 34\"/>\n          <path d=\"M28 30 L32 30\"/>\n          <!-- Dos courbé -->\n          <path d=\"M20 12 Q16 18 12 20\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour enfiler<br>vos chaussures</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Loupe -->\n          <circle cx=\"17\" cy=\"17\" r=\"9\"/>\n          <line x1=\"24\" y1=\"24\" x2=\"33\" y2=\"33\"/>\n          <!-- Point d'interrogation -->\n          <path d=\"M14 14 Q14 11 17 11 Q20 11 20 14 Q20 16 17 17\"/>\n          <circle cx=\"17\" cy=\"20\" r=\"0.8\" fill=\"#6B3A2A\" stroke=\"none\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour chercher<br>votre chausse-pied</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Tiroir -->\n          <rect x=\"6\" y=\"8\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <rect x=\"6\" y=\"22\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <circle cx=\"20\" cy=\"13\" r=\"2\"/>\n          <circle cx=\"20\" cy=\"27\" r=\"2\"/>\n          <!-- Flèche qui sort du tiroir ouvert -->\n          <path d=\"M6 18 L6 22\"/>\n          <path d=\"M34 18 L34 22\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour le récupérer<br>au fond d'un tiroir</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Panier / rangement -->\n          <path d=\"M8 16 L10 30 L30 30 L32 16 Z\"/>\n          <path d=\"M5 16 L35 16\"/>\n          <path d=\"M14 16 L12 10\"/>\n          <path d=\"M26 16 L28 10\"/>\n          <line x1=\"14\" y1=\"22\" x2=\"26\" y2=\"22\"/>\n          <line x1=\"13\" y1=\"26\" x2=\"27\" y2=\"26\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour ranger ce qui<br>devrait rester<br>à portée de main</p>\n    </div>\n\n  </div>\n\n  <p class=\"mcb-pain-conclusion\">Maison Clairbois a été conçu pour mettre fin<br>à ces gestes répétitifs du quotidien.</p>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
     "slideshow",
+    "custom_liquid_jKMpkq",
     "image-with-text-overlay",
     "rich_text_3RHRQ3",
-    "image_with_text_overlay_zcbg9Y",
     "image_with_text_overlay_NE4VqJ",
-    "before-after-image",
     "impact-text",
+    "image_with_text_overlay_kWFHQh",
+    "image_with_text_overlay_4LM3gg",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
     "scrolling_text_4rV9t3",
@@ -672,7 +675,6 @@
     "17804141537086cf56",
     "custom_liquid_6RDUiy",
     "custom_liquid_BW4h9D",
-    "1780232986faa04107",
-    "custom_liquid_jKMpkq"
+    "1780232986faa04107"
   ]
 }
