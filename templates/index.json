@@ -299,44 +299,6 @@
         "testimonial_card_text_color": ""
       }
     },
-    "custom_liquid_WhWta4": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  .mcb-install {\n    text-align: center;\n    padding: 40px 20px;\n    background: #FAF5F2;\n  }\n  .mcb-install-titre {\n    font-family: Georgia, serif;\n    font-size: 32px;\n    font-weight: 700;\n    color: #1A1A1A;\n    margin: 0 0 20px;\n    line-height: 1.2;\n  }\n  .mcb-install-titre span {\n    color: #6B3A2A;\n  }\n  .mcb-install-items {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 40px;\n    flex-wrap: wrap;\n    margin: 0;\n  }\n  .mcb-install-item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 15px;\n    color: #1A1A1A;\n    font-family: Georgia, serif;\n  }\n  .mcb-install-item svg {\n    width: 22px;\n    height: 22px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.8;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .mcb-install-titre { font-size: 24px; }\n    .mcb-install-items { gap: 20px; flex-direction: column; }\n  }\n</style>\n\n<div class=\"mcb-install\">\n  <h2 class=\"mcb-install-titre\">Installation en moins de <span>30 secondes</span></h2>\n  <div class=\"mcb-install-items\">\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>\n      </svg>\n      Sans perçage.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M3 3l18 18M10.5 10.677a2.5 2.5 0 0 0 3.823 3.823\"/>\n        <path d=\"M17.464 6.536A6 6 0 0 1 6.536 17.464M13.5 13.5l4 4\"/>\n        <path d=\"M6 6l4 4\"/>\n      </svg>\n      Sans outil.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n        <polyline points=\"22 4 12 14.01 9 11.01\"/>\n      </svg>\n      Sans effort.\n    </div>\n\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
-    "1780402187d4c6268d": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_d3b57b6_DcU8jM": {
-          "type": "ai_gen_block_d3b57b6",
-          "settings": {
-            "image_1": "shopify://shop_images/Etape01_1000x1000_09baf8d1-5993-46aa-b752-9ea653339275.png",
-            "image_2": "shopify://shop_images/Etape02_1000x1000_cb532fbb-22e4-42cd-b3d4-08c273031f25.png",
-            "image_3": "shopify://shop_images/Etape03_1000x1000_59b97f79-3efe-4fd2-b522-0692d1b56679.png",
-            "scroll_speed": 10,
-            "slide_width": 30,
-            "slide_width_mobile": 80,
-            "slide_spacing": 12,
-            "desktop_width_percent": 100,
-            "border_radius": 12,
-            "image_border_radius": 32
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_d3b57b6_DcU8jM"
-      ],
-      "settings": {}
-    },
     "scrolling_text_4rV9t3": {
       "type": "scrolling-text",
       "name": "Scrolling text",
@@ -568,6 +530,19 @@
         "input_text_color": ""
       }
     },
+    "custom_liquid_WhWta4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .mcb-install {\n    text-align: center;\n    padding: 40px 20px;\n    background: #FAF5F2;\n  }\n  .mcb-install-titre {\n    font-family: Georgia, serif;\n    font-size: 32px;\n    font-weight: 700;\n    color: #1A1A1A;\n    margin: 0 0 20px;\n    line-height: 1.2;\n  }\n  .mcb-install-titre span {\n    color: #6B3A2A;\n  }\n  .mcb-install-items {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 40px;\n    flex-wrap: wrap;\n    margin: 0;\n  }\n  .mcb-install-item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 15px;\n    color: #1A1A1A;\n    font-family: Georgia, serif;\n  }\n  .mcb-install-item svg {\n    width: 22px;\n    height: 22px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.8;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .mcb-install-titre { font-size: 24px; }\n    .mcb-install-items { gap: 20px; flex-direction: column; }\n  }\n</style>\n\n<div class=\"mcb-install\">\n  <h2 class=\"mcb-install-titre\">Installation en moins de <span>30 secondes</span></h2>\n  <div class=\"mcb-install-items\">\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>\n      </svg>\n      Sans perçage.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M3 3l18 18M10.5 10.677a2.5 2.5 0 0 0 3.823 3.823\"/>\n        <path d=\"M17.464 6.536A6 6 0 0 1 6.536 17.464M13.5 13.5l4 4\"/>\n        <path d=\"M6 6l4 4\"/>\n      </svg>\n      Sans outil.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n        <polyline points=\"22 4 12 14.01 9 11.01\"/>\n      </svg>\n      Sans effort.\n    </div>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "custom_liquid_WK6mkh": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -602,7 +577,7 @@
             "show_cb": false,
             "alignment": "flex-end",
             "desktop_width_percent": 100,
-            "icon_size": 52,
+            "icon_size": 30,
             "icon_spacing": 16,
             "spacing_between_elements": 38,
             "title_size": 16,
@@ -626,13 +601,38 @@
       "name": "Custom Liquid",
       "settings": {
         "full_width": true,
-        "remove_vertical_spacing": true,
+        "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
         "liquid": "<style>\n  .mcb-trust {\n    border: 1px solid #E0D5CC;\n    border-radius: 10px;\n    padding: 20px 16px;\n    margin-top: 20px;\n    background: #FAF5F2;\n    max-width: 540px;\n    margin-left: auto;\n  }\n  .mcb-trust-titre {\n    text-align: center;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 2px;\n    color: #6B3A2A;\n    text-transform: uppercase;\n    margin: 0 0 18px;\n  }\n  .mcb-trust-steps {\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n    position: relative;\n    margin-bottom: 20px;\n    padding-bottom: 20px;\n    border-bottom: 1px solid #E0D5CC;\n  }\n  .mcb-trust-steps::before {\n    content: '';\n    position: absolute;\n    top: 22px;\n    left: 15%;\n    right: 15%;\n    height: 2px;\n    background: #E0D5CC;\n    z-index: 0;\n  }\n  .mcb-trust-step {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 8px;\n    flex: 1;\n    position: relative;\n    z-index: 1;\n  }\n  .mcb-trust-step-icon {\n    width: 44px;\n    height: 44px;\n    border-radius: 50%;\n    background: #6B3A2A;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n  }\n  .mcb-trust-step-label {\n    font-size: 13px;\n    font-weight: 700;\n    color: #1A1A1A;\n    text-align: center;\n    margin: 0;\n    line-height: 1.3;\n  }\n  .mcb-trust-step-sub {\n    font-size: 11.5px;\n    color: #6B3A2A;\n    font-weight: 600;\n    text-align: center;\n    margin: 0;\n  }\n  .mcb-trust-badges {\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-start;\n  }\n  .mcb-trust-badge {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 7px;\n    flex: 1;\n  }\n  .mcb-trust-badge-icon {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    border: 2px solid #E0D5CC;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n    background: #fff;\n  }\n  .mcb-trust-badge-label {\n    font-size: 12.5px;\n    font-weight: 700;\n    color: #1A1A1A;\n    text-align: center;\n    margin: 0;\n    line-height: 1.3;\n  }\n</style>\n\n<div class=\"mcb-trust\">\n  <p class=\"mcb-trust-titre\">🔒 Paiement sécurisé</p>\n\n  <div class=\"mcb-trust-steps\">\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">🛒</div>\n      <p class=\"mcb-trust-step-label\">Aujourd'hui</p>\n      <p class=\"mcb-trust-step-sub\">Commandé</p>\n    </div>\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">📦</div>\n      <p class=\"mcb-trust-step-label\">24–48h</p>\n      <p class=\"mcb-trust-step-sub\">Expédié</p>\n    </div>\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">🏠</div>\n      <p class=\"mcb-trust-step-label\">5–7 jours</p>\n      <p class=\"mcb-trust-step-sub\">Chez vous</p>\n    </div>\n  </div>\n\n  <div class=\"mcb-trust-badges\">\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">🚚</div>\n      <p class=\"mcb-trust-badge-label\">Livraison<br>offerte</p>\n    </div>\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">💬</div>\n      <p class=\"mcb-trust-badge-label\">SAV<br>réactif</p>\n    </div>\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">🔄</div>\n      <p class=\"mcb-trust-badge-label\">Satisfait ou remboursé<br>30 jours</p>\n    </div>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "1780402187d4c6268d": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_d3b57b6_DcU8jM": {
+          "type": "ai_gen_block_d3b57b6",
+          "settings": {
+            "image_1": "shopify://shop_images/Etape01_1000x1000_09baf8d1-5993-46aa-b752-9ea653339275.png",
+            "image_2": "shopify://shop_images/Etape02_1000x1000_cb532fbb-22e4-42cd-b3d4-08c273031f25.png",
+            "image_3": "shopify://shop_images/Etape03_1000x1000_59b97f79-3efe-4fd2-b522-0692d1b56679.png",
+            "scroll_speed": 10,
+            "slide_width": 30,
+            "slide_width_mobile": 80,
+            "slide_spacing": 12,
+            "desktop_width_percent": 100,
+            "border_radius": 12,
+            "image_border_radius": 32
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_d3b57b6_DcU8jM"
+      ],
+      "settings": {}
     },
     "custom_liquid_BW4h9D": {
       "type": "custom-liquid",
@@ -669,8 +669,6 @@
     "impact-text",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
-    "custom_liquid_WhWta4",
-    "1780402187d4c6268d",
     "scrolling_text_4rV9t3",
     "178019223753940044",
     "blocks_aUe7jB",
@@ -680,9 +678,11 @@
     "image_with_text_overlay_wH8MCm",
     "blocks_PKPGRA",
     "featured_product_YqJj7g",
+    "custom_liquid_WhWta4",
     "custom_liquid_WK6mkh",
     "17804141537086cf56",
     "custom_liquid_6RDUiy",
+    "1780402187d4c6268d",
     "custom_liquid_BW4h9D",
     "1780232986faa04107"
   ]
