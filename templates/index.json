@@ -341,22 +341,6 @@
         "text_gradient": ""
       }
     },
-    "image_with_text_overlay_4LM3gg": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_21_42_24.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "178019223753940044": {
       "type": "_blocks",
       "blocks": {
@@ -400,6 +384,33 @@
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "before_after_image_6AjzKJ": {
+      "type": "before-after-image",
+      "name": "Before/after image",
+      "settings": {
+        "full_width": true,
+        "subheading": "Avant / Après",
+        "title": "Ne le cachez plus",
+        "content": "<p><strong>Bien plus qu'un chausse-pied.Un objet utile qui sublime votre intérieur.</strong></p>",
+        "before_image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_08_04.png",
+        "before_image_mobile": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_08_04.png",
+        "after_image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_02_23.png",
+        "after_image_mobile": "shopify://shop_images/ChatGPT_Image_2_juin_2026_19_02_23.png",
+        "expand_image": false,
+        "text_position": "center",
+        "before_after_text_position": "top",
+        "before_text": "Avant",
+        "after_text": "Après",
+        "drag_initial_position": 50,
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "before_text_color": "#000000",
+        "after_text_color": "#ffffff",
+        "drag_cursor_background": "#ffffff",
+        "drag_cursor_color": "#000000"
       }
     },
     "featured_product_YqJj7g": {
@@ -466,7 +477,7 @@
           "type": "button",
           "settings": {
             "link": "shopify://products/chausse-pied-mural-magnetique-scandinave-maison-clairbois",
-            "text": "Choisir mon chausse-pied",
+            "text": "Je commande",
             "size": "xl",
             "style": "fill",
             "stretch": true,
@@ -559,6 +570,19 @@
       ],
       "settings": {}
     },
+    "custom_liquid_6RDUiy": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<style>\n  .mcb-trust {\n    border: 1px solid #E0D5CC;\n    border-radius: 10px;\n    padding: 20px 16px;\n    margin-top: 20px;\n    background: #FAF5F2;\n    width: 100%;\n  }\n  .mcb-trust-titre {\n    text-align: center;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 2px;\n    color: #6B3A2A;\n    text-transform: uppercase;\n    margin: 0 0 18px;\n  }\n  .mcb-trust-steps {\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n    position: relative;\n    margin-bottom: 20px;\n    padding-bottom: 20px;\n    border-bottom: 1px solid #E0D5CC;\n  }\n  .mcb-trust-steps::before {\n    content: '';\n    position: absolute;\n    top: 22px;\n    left: 15%;\n    right: 15%;\n    height: 2px;\n    background: #E0D5CC;\n    z-index: 0;\n  }\n  .mcb-trust-step {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 8px;\n    flex: 1;\n    position: relative;\n    z-index: 1;\n  }\n  .mcb-trust-step-icon {\n    width: 44px;\n    height: 44px;\n    border-radius: 50%;\n    background: #6B3A2A;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n  }\n  .mcb-trust-step-label {\n    font-size: 13px;\n    font-weight: 700;\n    color: #1A1A1A;\n    text-align: center;\n    margin: 0;\n    line-height: 1.3;\n  }\n  .mcb-trust-step-sub {\n    font-size: 11.5px;\n    color: #6B3A2A;\n    font-weight: 600;\n    text-align: center;\n    margin: 0;\n  }\n  .mcb-trust-badges {\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-start;\n  }\n  .mcb-trust-badge {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 7px;\n    flex: 1;\n  }\n  .mcb-trust-badge-icon {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    border: 2px solid #E0D5CC;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n    background: #fff;\n  }\n  .mcb-trust-badge-label {\n    font-size: 12.5px;\n    font-weight: 700;\n    color: #1A1A1A;\n    text-align: center;\n    margin: 0;\n    line-height: 1.3;\n  }\n</style>\n\n<div class=\"mcb-trust\">\n  <p class=\"mcb-trust-titre\">🔒 Paiement sécurisé</p>\n  <div class=\"mcb-trust-steps\">\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">🛒</div>\n      <p class=\"mcb-trust-step-label\">Aujourd'hui</p>\n      <p class=\"mcb-trust-step-sub\">Commandé</p>\n    </div>\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">📦</div>\n      <p class=\"mcb-trust-step-label\">24–48h</p>\n      <p class=\"mcb-trust-step-sub\">Expédié</p>\n    </div>\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">🏠</div>\n      <p class=\"mcb-trust-step-label\">5–7 jours</p>\n      <p class=\"mcb-trust-step-sub\">Chez vous</p>\n    </div>\n  </div>\n  <div class=\"mcb-trust-badges\">\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">🚚</div>\n      <p class=\"mcb-trust-badge-label\">Livraison<br>offerte</p>\n    </div>\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">💬</div>\n      <p class=\"mcb-trust-badge-label\">SAV<br>réactif</p>\n    </div>\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">🔄</div>\n      <p class=\"mcb-trust-badge-label\">Satisfait ou remboursé<br>30 jours</p>\n    </div>\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "17804141537086cf56": {
       "type": "_blocks",
       "blocks": {
@@ -598,19 +622,6 @@
         "ai_gen_block_8886a05_HQbJ37"
       ],
       "settings": {}
-    },
-    "custom_liquid_6RDUiy": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .mcb-trust {\n    border: 1px solid #E0D5CC;\n    border-radius: 10px;\n    padding: 20px 16px;\n    margin-top: 20px;\n    background: #FAF5F2;\n    width: 100%;\n  }\n  .mcb-trust-titre {\n    text-align: center;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 2px;\n    color: #6B3A2A;\n    text-transform: uppercase;\n    margin: 0 0 18px;\n  }\n  .mcb-trust-steps {\n    display: flex;\n    justify-content: space-between;\n    align-items: flex-start;\n    position: relative;\n    margin-bottom: 20px;\n    padding-bottom: 20px;\n    border-bottom: 1px solid #E0D5CC;\n  }\n  .mcb-trust-steps::before {\n    content: '';\n    position: absolute;\n    top: 22px;\n    left: 15%;\n    right: 15%;\n    height: 2px;\n    background: #E0D5CC;\n    z-index: 0;\n  }\n  .mcb-trust-step {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 8px;\n    flex: 1;\n    position: relative;\n    z-index: 1;\n  }\n  .mcb-trust-step-icon {\n    width: 44px;\n    height: 44px;\n    border-radius: 50%;\n    background: #6B3A2A;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n  }\n  .mcb-trust-step-label {\n    font-size: 13px;\n    font-weight: 700;\n    color: #1A1A1A;\n    text-align: center;\n    margin: 0;\n    line-height: 1.3;\n  }\n  .mcb-trust-step-sub {\n    font-size: 11.5px;\n    color: #6B3A2A;\n    font-weight: 600;\n    text-align: center;\n    margin: 0;\n  }\n  .mcb-trust-badges {\n    display: flex;\n    justify-content: space-around;\n    align-items: flex-start;\n  }\n  .mcb-trust-badge {\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 7px;\n    flex: 1;\n  }\n  .mcb-trust-badge-icon {\n    width: 40px;\n    height: 40px;\n    border-radius: 50%;\n    border: 2px solid #E0D5CC;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    font-size: 18px;\n    background: #fff;\n  }\n  .mcb-trust-badge-label {\n    font-size: 12.5px;\n    font-weight: 700;\n    color: #1A1A1A;\n    text-align: center;\n    margin: 0;\n    line-height: 1.3;\n  }\n</style>\n\n<div class=\"mcb-trust\">\n  <p class=\"mcb-trust-titre\">🔒 Paiement sécurisé</p>\n  <div class=\"mcb-trust-steps\">\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">🛒</div>\n      <p class=\"mcb-trust-step-label\">Aujourd'hui</p>\n      <p class=\"mcb-trust-step-sub\">Commandé</p>\n    </div>\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">📦</div>\n      <p class=\"mcb-trust-step-label\">24–48h</p>\n      <p class=\"mcb-trust-step-sub\">Expédié</p>\n    </div>\n    <div class=\"mcb-trust-step\">\n      <div class=\"mcb-trust-step-icon\">🏠</div>\n      <p class=\"mcb-trust-step-label\">5–7 jours</p>\n      <p class=\"mcb-trust-step-sub\">Chez vous</p>\n    </div>\n  </div>\n  <div class=\"mcb-trust-badges\">\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">🚚</div>\n      <p class=\"mcb-trust-badge-label\">Livraison<br>offerte</p>\n    </div>\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">💬</div>\n      <p class=\"mcb-trust-badge-label\">SAV<br>réactif</p>\n    </div>\n    <div class=\"mcb-trust-badge\">\n      <div class=\"mcb-trust-badge-icon\">🔄</div>\n      <p class=\"mcb-trust-badge-label\">Satisfait ou remboursé<br>30 jours</p>\n    </div>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     },
     "custom_liquid_BW4h9D": {
       "type": "custom-liquid",
@@ -670,10 +681,10 @@
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
     "scrolling_text_4rV9t3",
-    "image_with_text_overlay_4LM3gg",
     "178019223753940044",
     "blocks_aUe7jB",
     "image_with_text_overlay_eJ66j9",
+    "before_after_image_6AjzKJ",
     "featured_product_YqJj7g",
     "custom_liquid_WK6mkh",
     "custom_liquid_WhWta4",
