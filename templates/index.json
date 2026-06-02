@@ -143,8 +143,8 @@
       "type": "before-after-image",
       "settings": {
         "full_width": true,
-        "subheading": "",
-        "title": "Avant et après",
+        "subheading": "Avant et après",
+        "title": "Ne le cacher plus",
         "content": "<p>Le chausse-pied qui embellit votre entrée.</p>",
         "before_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_08_41.png",
         "before_image_mobile": "shopify://shop_images/ChatGPT_Image_29_mai_2026_21_10_28.png",
