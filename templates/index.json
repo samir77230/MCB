@@ -108,6 +108,7 @@
         "icon_D74rwy",
         "heading_7FUiyb"
       ],
+      "disabled": true,
       "name": "Rich text",
       "settings": {
         "full_width": false,
@@ -202,6 +203,18 @@
     "testimonials_n36RPz": {
       "type": "testimonials",
       "blocks": {
+        "testimonial_TKV3HV": {
+          "type": "testimonial",
+          "settings": {
+            "image": "shopify://shop_images/young-woman-in-orange-shirt-with-pomegranate-tattoo.jpg",
+            "round_avatar": true,
+            "show_rating": true,
+            "rating": 5,
+            "author": "",
+            "title": "",
+            "content": "<p><em><strong>J’ai acheté ce chausse-pied pour son côté pratique, mais c’est finalement son intégration dans mon intérieur qui m’a le plus surpris. Il reste toujours visible grâce à son support mural, ne traîne plus dans un tiroir et apporte une véritable touche décorative à l’entrée. Un objet aussi beau qu’utile.</strong></em></p><p></p><p>Léa, 43 ans , Tour</p><p><em>✓ Cliente vérifiée</em></p>"
+          }
+        },
         "testimonial_hzVUje": {
           "type": "testimonial",
           "settings": {
@@ -211,7 +224,7 @@
             "rating": 5,
             "author": "",
             "title": "",
-            "content": "<p><strong>Je ne pensais pas qu’un simple chausse-pied pouvait avoir autant d’impact sur mon quotidien. Aujourd’hui, il est toujours à portée de main grâce à son support mural, je n’ai presque plus besoin de me pencher pour enfiler mes chaussures et mon entrée paraît beaucoup plus élégante et organisée. C’est le genre de détail que l’on apprécie un peu plus chaque jour.</strong></p><p><em>Julie, 40 ans , Lyon</em></p><p><em>✓ Client vérifié</em></p>"
+            "content": "<p><strong>Je ne pensais pas qu’un simple chausse-pied pouvait avoir autant d’impact sur mon quotidien. Aujourd’hui, il est toujours à portée de main grâce à son support mural, je n’ai presque plus besoin de me pencher pour enfiler mes chaussures et mon entrée paraît beaucoup plus élégante et organisée. C’est le genre de détail que l’on apprécie un peu plus chaque jour.</strong></p><p><em>Julie, 40 ans , Lyon</em></p><p><em>✓ Cliente vérifiée</em></p>"
           }
         },
         "testimonial_JzcEfK": {
@@ -300,6 +313,7 @@
         }
       },
       "block_order": [
+        "testimonial_TKV3HV",
         "testimonial_hzVUje",
         "testimonial_JzcEfK",
         "testimonial_pNNr6z",
