@@ -11,6 +11,64 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
+    "timeline_qFLr49": {
+      "type": "timeline",
+      "blocks": {
+        "slide_a3UYit": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_2_juin_2026_23_57_02.png",
+            "navigation_label": "1953",
+            "subheading": "",
+            "title": "Notre histoire",
+            "content": "<p>Maison Clairbois puise son inspiration au cœur des Alpes françaises, où le bois fait partie du quotidien depuis des générations.</p><p>Fondée dans l'esprit des ateliers de menuiserie traditionnels alpins, la marque est née d'une conviction simple : les objets les plus utiles méritent aussi d'être beaux.</p><p>Nous imaginons des accessoires durables, conçus à partir de matériaux nobles et pensés pour s'intégrer naturellement dans les intérieurs d'aujourd'hui. Chaque création allie fonctionnalité, simplicité et élégance intemporelle.</p><p>Chez Maison Clairbois, nous croyons que les petits gestes du quotidien méritent des objets bien conçus, capables d'apporter à la fois confort et harmonie à votre intérieur.</p>"
+          }
+        },
+        "slide_md9xcm": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_3_juin_2026_00_02_44.png",
+            "navigation_label": "1965",
+            "subheading": "",
+            "title": "Notre héritage",
+            "content": "<p>Au fil du temps, ces artisans ont transmis bien plus qu'un savoir-faire. Ils ont transmis une façon de concevoir les objets : utiles, durables et pensés pour accompagner le quotidien.</p><p>C'est de cet héritage qu'est née Maison Clairbois.</p><p>Nous croyons que les objets les plus simples sont souvent ceux que l'on utilise le plus. Pourtant, ils sont rarement pensés pour être beaux. Notre ambition est donc de réinventer ces accessoires du quotidien en leur offrant une place à part entière dans nos intérieurs.</p><p>Chaque création Maison Clairbois est inspirée par cette recherche d'équilibre entre fonctionnalité, élégance et durabilité. Des lignes épurées, des matériaux nobles et des solutions ingénieuses qui simplifient la vie sans jamais compromettre l'esthétique.</p><p>Aujourd'hui encore, nous puisons dans cet esprit artisanal pour imaginer des objets qui traversent les années, apportent du confort au quotidien et trouvent naturellement leur place dans les intérieurs les plus soignés.</p>"
+          }
+        },
+        "slide_eE8wzL": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_3_juin_2026_00_06_49.png",
+            "navigation_label": "1987",
+            "subheading": "",
+            "title": "Notre développement",
+            "content": "<p>Au fil des années, les créations inspirées de cet héritage alpin ont commencé à trouver leur place bien au-delà des ateliers.</p><p>D'abord proposées dans quelques boutiques indépendantes de montagne et magasins dédiés à l'art de vivre, elles ont rapidement séduit une clientèle sensible aux objets durables, utiles et élégants.</p><p>Ce succès a confirmé une conviction simple : les accessoires du quotidien méritent autant d'attention que les pièces maîtresses de nos intérieurs.</p><p>C'est ainsi qu'est née Maison Clairbois, avec la volonté de faire découvrir au plus grand nombre des objets inspirés du savoir-faire traditionnel du bois, réinventés pour répondre aux besoins d'aujourd'hui.</p><p>Aujourd'hui, nous poursuivons cette même ambition : créer des objets intemporels qui simplifient la vie, embellissent les intérieurs et accompagnent durablement ceux qui les utilisent.</p>"
+          }
+        },
+        "slide_UyYVFV": {
+          "type": "slide",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_3_juin_2026_00_14_17.png",
+            "navigation_label": "Aujourd'hui",
+            "subheading": "",
+            "title": "Aujourd'hui",
+            "content": "<p>Au fil des années, Maison Clairbois a dépassé le cadre des ateliers et des boutiques locales qui ont inspiré ses débuts.</p><p>Portée par le numérique, la marque fait aujourd'hui découvrir ses créations à des clients partout en France et à l'international, tout en conservant les valeurs qui ont guidé son développement : simplicité, élégance et utilité.</p><p>Notre ambition reste inchangée : réinventer les objets du quotidien pour qu'ils trouvent naturellement leur place dans les intérieurs modernes.</p><p>Notre chausse-pied mural en est l'exemple parfait. Pensé pour être à la fois pratique et esthétique, il associe un bois naturel soigneusement sélectionné à un support magnétique discret qui lui offre une place dédiée dans l'entrée.</p><p>Toujours à portée de main, jamais perdu au fond d'un tiroir, il transforme un geste quotidien en une expérience plus confortable tout en apportant une touche d'élégance à votre intérieur.</p><p>Aujourd'hui, Maison Clairbois continue d'imaginer des objets utiles, durables et intemporels, conçus pour accompagner les foyers modernes pendant de nombreuses années.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "slide_a3UYit",
+        "slide_md9xcm",
+        "slide_eE8wzL",
+        "slide_UyYVFV"
+      ],
+      "name": "Timeline",
+      "settings": {
+        "full_width": true,
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -81,18 +139,10 @@
           "type": "newsletter",
           "settings": {
             "image": "shopify://shop_images/Capture_d_ecran_2026-06-02_a_23.36.55-removebg-preview.png",
-            "image_width": 150,
-            "heading_size": "h3",
+            "image_width": 70,
+            "heading_size": "h5",
             "title": "Restez informé de nos nouveautés",
             "content": "<p><em>Rejoignez 12 000 intérieurs soignés.Conseils déco, offres exclusives , une fois par mois, pas plus.</em></p>"
-          }
-        },
-        "links": {
-          "type": "links",
-          "settings": {
-            "menu": "footer",
-            "show_menu_title": true,
-            "menu_title": ""
           }
         },
         "text": {
@@ -106,7 +156,6 @@
       },
       "block_order": [
         "newsletter",
-        "links",
         "text"
       ],
       "settings": {
@@ -121,6 +170,7 @@
     }
   },
   "order": [
+    "timeline_qFLr49",
     "text-with-icons",
     "footer"
   ]
