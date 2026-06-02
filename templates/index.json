@@ -299,6 +299,19 @@
         "testimonial_card_text_color": ""
       }
     },
+    "custom_liquid_WhWta4": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .mcb-install {\n    text-align: center;\n    padding: 40px 20px;\n    background: #FAF5F2;\n  }\n  .mcb-install-titre {\n    font-family: Georgia, serif;\n    font-size: 32px;\n    font-weight: 700;\n    color: #1A1A1A;\n    margin: 0 0 20px;\n    line-height: 1.2;\n  }\n  .mcb-install-titre span {\n    color: #6B3A2A;\n  }\n  .mcb-install-items {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 40px;\n    flex-wrap: wrap;\n    margin: 0;\n  }\n  .mcb-install-item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 15px;\n    color: #1A1A1A;\n    font-family: Georgia, serif;\n  }\n  .mcb-install-item svg {\n    width: 22px;\n    height: 22px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.8;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .mcb-install-titre { font-size: 24px; }\n    .mcb-install-items { gap: 20px; flex-direction: column; }\n  }\n</style>\n\n<div class=\"mcb-install\">\n  <h2 class=\"mcb-install-titre\">Installation en moins de <span>30 secondes</span></h2>\n  <div class=\"mcb-install-items\">\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>\n      </svg>\n      Sans perçage.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M3 3l18 18M10.5 10.677a2.5 2.5 0 0 0 3.823 3.823\"/>\n        <path d=\"M17.464 6.536A6 6 0 0 1 6.536 17.464M13.5 13.5l4 4\"/>\n        <path d=\"M6 6l4 4\"/>\n      </svg>\n      Sans outil.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n        <polyline points=\"22 4 12 14.01 9 11.01\"/>\n      </svg>\n      Sans effort.\n    </div>\n\n  </div>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "1780402187d4c6268d": {
       "type": "_blocks",
       "blocks": {
@@ -611,19 +624,6 @@
         "background": "#f2f2f2",
         "background_gradient": ""
       }
-    },
-    "custom_liquid_WhWta4": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  .mcb-install {\n    text-align: center;\n    padding: 40px 20px;\n    background: #FAF5F2;\n  }\n  .mcb-install-titre {\n    font-family: Georgia, serif;\n    font-size: 32px;\n    font-weight: 700;\n    color: #1A1A1A;\n    margin: 0 0 20px;\n    line-height: 1.2;\n  }\n  .mcb-install-titre span {\n    color: #6B3A2A;\n  }\n  .mcb-install-items {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    gap: 40px;\n    flex-wrap: wrap;\n    margin: 0;\n  }\n  .mcb-install-item {\n    display: flex;\n    align-items: center;\n    gap: 8px;\n    font-size: 15px;\n    color: #1A1A1A;\n    font-family: Georgia, serif;\n  }\n  .mcb-install-item svg {\n    width: 22px;\n    height: 22px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.8;\n    flex-shrink: 0;\n  }\n  @media (max-width: 480px) {\n    .mcb-install-titre { font-size: 24px; }\n    .mcb-install-items { gap: 20px; flex-direction: column; }\n  }\n</style>\n\n<div class=\"mcb-install\">\n  <h2 class=\"mcb-install-titre\">Installation en moins de <span>30 secondes</span></h2>\n  <div class=\"mcb-install-items\">\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z\"/>\n      </svg>\n      Sans perçage.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M3 3l18 18M10.5 10.677a2.5 2.5 0 0 0 3.823 3.823\"/>\n        <path d=\"M17.464 6.536A6 6 0 0 1 6.536 17.464M13.5 13.5l4 4\"/>\n        <path d=\"M6 6l4 4\"/>\n      </svg>\n      Sans outil.\n    </div>\n\n    <div class=\"mcb-install-item\">\n      <svg viewBox=\"0 0 24 24\" xmlns=\"http://www.w3.org/2000/svg\">\n        <path d=\"M22 11.08V12a10 10 0 1 1-5.93-9.14\"/>\n        <polyline points=\"22 4 12 14.01 9 11.01\"/>\n      </svg>\n      Sans effort.\n    </div>\n\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
     }
   },
   "order": [
@@ -636,6 +636,7 @@
     "impact-text",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
+    "custom_liquid_WhWta4",
     "1780402187d4c6268d",
     "scrolling_text_4rV9t3",
     "178019223753940044",
@@ -647,7 +648,6 @@
     "blocks_PKPGRA",
     "featured_product_YqJj7g",
     "1780232986faa04107",
-    "slideshow_pFrATQ",
-    "custom_liquid_WhWta4"
+    "slideshow_pFrATQ"
   ]
 }
