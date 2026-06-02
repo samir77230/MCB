@@ -183,19 +183,6 @@
         "button_text_color": ""
       }
     },
-    "custom_liquid_AXwfaf": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": false,
-        "liquid": "<div class=\"mcb-rating-wrapper\">\n  <div class=\"mcb-rating-bar\">\n    <span class=\"mcb-score\">4.9</span>\n    <div class=\"mcb-stars\">\n      {% for i in (1..5) %}\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#6B3A2A\" width=\"22\" height=\"22\">\n          <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n        </svg>\n      {% endfor %}\n    </div>\n    <span class=\"mcb-label\">Basé sur +500 avis vérifiés</span>\n  </div>\n</div>\n\n<style>\n  .mcb-rating-wrapper {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    padding: 16px 0;\n  }\n\n  .mcb-rating-bar {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    font-family: Georgia, serif;\n  }\n\n  .mcb-score {\n    font-size: 2.2rem;\n    font-weight: 700;\n    color: #1A1A1A;\n    line-height: 1;\n  }\n\n  .mcb-stars {\n    display: flex;\n    align-items: center;\n    gap: 2px;\n  }\n\n  .mcb-label {\n    font-size: 0.85rem;\n    color: #1A1A1A;\n    font-style: italic;\n  }\n</style>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "testimonials_n36RPz": {
       "type": "testimonials",
       "blocks": {
@@ -407,6 +394,19 @@
       "name": "Séparateur de section",
       "settings": {}
     },
+    "custom_liquid_AXwfaf": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"mcb-rating-wrapper\">\n  <div class=\"mcb-rating-bar\">\n    <span class=\"mcb-score\">4.9</span>\n    <div class=\"mcb-stars\">\n      {% for i in (1..5) %}\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#6B3A2A\" width=\"22\" height=\"22\">\n          <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n        </svg>\n      {% endfor %}\n    </div>\n    <span class=\"mcb-label\">Basé sur +500 avis vérifiés</span>\n  </div>\n</div>\n\n<style>\n  .mcb-rating-wrapper {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    padding: 16px 0;\n  }\n\n  .mcb-rating-bar {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    font-family: Georgia, serif;\n  }\n\n  .mcb-score {\n    font-size: 2.2rem;\n    font-weight: 700;\n    color: #1A1A1A;\n    line-height: 1;\n  }\n\n  .mcb-stars {\n    display: flex;\n    align-items: center;\n    gap: 2px;\n  }\n\n  .mcb-label {\n    font-size: 0.85rem;\n    color: #1A1A1A;\n    font-style: italic;\n  }\n</style>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
+    },
     "blocks_3krN3J": {
       "type": "_blocks",
       "name": "Séparateur de section",
@@ -548,6 +548,70 @@
         "background_gradient": "",
         "text_color": ""
       }
+    },
+    "slideshow_pFrATQ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mByL4H": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/a465c77b-0af2-4388-82d1-724b7b7474ec.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Un bel objet vous attend",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        },
+        "image_rDiUmL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/d7043582-adbf-4edd-a3fc-1a2112989b18.png",
+            "content_max_width": 780,
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "subheading": "",
+            "title": "Un geste plus simple",
+            "heading_tag": "h2",
+            "button_text": "",
+            "button_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#ffffff",
+            "button_text_color": "#000000",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30,
+            "background": "",
+            "background_gradient": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mByL4H",
+        "image_rDiUmL"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": true,
+        "show_initial_transition": false,
+        "image_size": "auto",
+        "controls_type": "dots",
+        "transition_type": "fade_with_text",
+        "autoplay": false,
+        "cycle_speed": 6,
+        "background": "#F2F2F2",
+        "background_gradient": ""
+      }
     }
   },
   "order": [
@@ -569,6 +633,7 @@
     "image_with_text_overlay_wH8MCm",
     "blocks_PKPGRA",
     "featured_product_YqJj7g",
-    "1780232986faa04107"
+    "1780232986faa04107",
+    "slideshow_pFrATQ"
   ]
 }
