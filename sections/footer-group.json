@@ -140,23 +140,14 @@
           "settings": {
             "image": "shopify://shop_images/Capture_d_ecran_2026-06-02_a_23.36.55-removebg-preview.png",
             "image_width": 70,
-            "heading_size": "h5",
+            "heading_size": "h3",
             "title": "Restez informé de nos nouveautés",
-            "content": "<p><em>Rejoignez 12 000 intérieurs soignés.Conseils déco, offres exclusives , une fois par mois, pas plus.</em></p>"
-          }
-        },
-        "text": {
-          "type": "text",
-          "settings": {
-            "title": "À propos de Maison Clairbois",
-            "content": "<p>Maison Clairbois est née d'une conviction simple : les objets du quotidien méritent d'être beaux. L'Essentiel, notre chausse-pied mural en bois naturel, est conçu pour ceux qui refusent de choisir entre confort et élégance.</p>",
-            "enable_follow_on_shop": true
+            "content": "<p><em>Rejoignez plus de 12 000 intérieurs soignés.<br/><br/>Inspirations déco, conseils d'aménagement et offres exclusives. Un rendez-vous mensuel, pensé pour les amoureux des beaux intérieurs.</em></p>"
           }
         }
       },
       "block_order": [
-        "newsletter",
-        "text"
+        "newsletter"
       ],
       "settings": {
         "show_social_media": true,
