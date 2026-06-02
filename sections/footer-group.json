@@ -80,10 +80,11 @@
         "newsletter": {
           "type": "newsletter",
           "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_40_18.png",
             "image_width": 150,
             "heading_size": "h3",
             "title": "Restez informé de nos nouveautés",
-            "content": "<p>Inscrivez-vous à notre newsletter pour recevoir nos dernières collections, conseils et offres spéciales.</p>"
+            "content": "<p><em>Rejoignez 2 000 intérieurs soignés.Conseils déco, offres exclusives , une fois par mois, pas plus.</em></p>"
           }
         },
         "links": {
