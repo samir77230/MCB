@@ -1,6 +1,318 @@
+{% doc %}
+  @prompt
+    genere moi un carrousel d'image qui défile seule 
+{% enddoc %}
+{% assign ai_gen_id = block.id | replace: '_', '' | downcase %}
+
+{% style %}
+  .ai-carousel-{{ ai_gen_id }} {
+    position: relative;
+    width: {{ block.settings.desktop_width_percent }}%;
+    max-width: 100%;
+    overflow: hidden;
+    border-radius: {{ block.settings.border_radius }}px;
+    display: block;
+  }
+
+  .ai-carousel-track-{{ ai_gen_id }} {
+    display: flex;
+    animation: ai-carousel-scroll-{{ ai_gen_id }} {{ block.settings.scroll_speed }}s linear infinite;
+  }
+
+  .ai-carousel-{{ ai_gen_id }}:hover .ai-carousel-track-{{ ai_gen_id }} {
+    animation-play-state: paused;
+  }
+
+  .ai-carousel-slide-{{ ai_gen_id }} {
+    flex-shrink: 0;
+    width: {{ block.settings.slide_width }}%;
+    padding: 0 {{ block.settings.slide_spacing }}px;
+  }
+
+  .ai-carousel-image-wrapper-{{ ai_gen_id }} {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-carousel-image-{{ ai_gen_id }} {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+  }
+
+  .ai-carousel-placeholder-{{ ai_gen_id }} {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    background-color: #f4f4f4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: {{ block.settings.image_border_radius }}px;
+  }
+
+  .ai-carousel-placeholder-{{ ai_gen_id }} svg {
+    width: 100%;
+    height: 100%;
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  @keyframes ai-carousel-scroll-{{ ai_gen_id }} {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .ai-carousel-track-{{ ai_gen_id }} {
+      animation: none;
+    }
+  }
+
+  @media screen and (max-width: 749px) {
+    .ai-carousel-slide-{{ ai_gen_id }} {
+      width: {{ block.settings.slide_width_mobile }}%;
+    }
+  }
+{% endstyle %}
+
+<auto-carousel-{{ ai_gen_id }} class="ai-carousel-{{ ai_gen_id }}" {{ block.shopify_attributes }}>
+  <div class="ai-carousel-track-{{ ai_gen_id }}">
+    {% if block.settings.image_1 != blank or block.settings.image_2 != blank or block.settings.image_3 != blank or block.settings.image_4 != blank or block.settings.image_5 != blank %}
+      {% for i in (1..2) %}
+        {% if block.settings.image_1 != blank %}
+          <div class="ai-carousel-slide-{{ ai_gen_id }}">
+            <div class="ai-carousel-image-wrapper-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_1 | image_url: width: 800 }}"
+                alt="{{ block.settings.image_1.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_1.width }}"
+                height="{{ block.settings.image_1.height }}"
+                class="ai-carousel-image-{{ ai_gen_id }}"
+              >
+            </div>
+          </div>
+        {% endif %}
+
+        {% if block.settings.image_2 != blank %}
+          <div class="ai-carousel-slide-{{ ai_gen_id }}">
+            <div class="ai-carousel-image-wrapper-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_2 | image_url: width: 800 }}"
+                alt="{{ block.settings.image_2.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_2.width }}"
+                height="{{ block.settings.image_2.height }}"
+                class="ai-carousel-image-{{ ai_gen_id }}"
+              >
+            </div>
+          </div>
+        {% endif %}
+
+        {% if block.settings.image_3 != blank %}
+          <div class="ai-carousel-slide-{{ ai_gen_id }}">
+            <div class="ai-carousel-image-wrapper-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_3 | image_url: width: 800 }}"
+                alt="{{ block.settings.image_3.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_3.width }}"
+                height="{{ block.settings.image_3.height }}"
+                class="ai-carousel-image-{{ ai_gen_id }}"
+              >
+            </div>
+          </div>
+        {% endif %}
+
+        {% if block.settings.image_4 != blank %}
+          <div class="ai-carousel-slide-{{ ai_gen_id }}">
+            <div class="ai-carousel-image-wrapper-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_4 | image_url: width: 800 }}"
+                alt="{{ block.settings.image_4.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_4.width }}"
+                height="{{ block.settings.image_4.height }}"
+                class="ai-carousel-image-{{ ai_gen_id }}"
+              >
+            </div>
+          </div>
+        {% endif %}
+
+        {% if block.settings.image_5 != blank %}
+          <div class="ai-carousel-slide-{{ ai_gen_id }}">
+            <div class="ai-carousel-image-wrapper-{{ ai_gen_id }}">
+              <img
+                src="{{ block.settings.image_5 | image_url: width: 800 }}"
+                alt="{{ block.settings.image_5.alt | escape }}"
+                loading="lazy"
+                width="{{ block.settings.image_5.width }}"
+                height="{{ block.settings.image_5.height }}"
+                class="ai-carousel-image-{{ ai_gen_id }}"
+              >
+            </div>
+          </div>
+        {% endif %}
+      {% endfor %}
+    {% else %}
+      {% for i in (1..6) %}
+        <div class="ai-carousel-slide-{{ ai_gen_id }}">
+          <div class="ai-carousel-placeholder-{{ ai_gen_id }}">
+            {{ 'image' | placeholder_svg_tag }}
+          </div>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</auto-carousel-{{ ai_gen_id }}>
+
+<script>
+  (function() {
+    class AutoCarousel{{ ai_gen_id }} extends HTMLElement {
+      constructor() {
+        super();
+      }
+
+      connectedCallback() {
+        this.track = this.querySelector('.ai-carousel-track-{{ ai_gen_id }}');
+        this.setupInfiniteScroll();
+      }
+
+      setupInfiniteScroll() {
+        if (!this.track) return;
+
+        const slides = this.track.querySelectorAll('.ai-carousel-slide-{{ ai_gen_id }}');
+        if (slides.length === 0) return;
+      }
+    }
+
+    customElements.define('auto-carousel-{{ ai_gen_id }}', AutoCarousel{{ ai_gen_id }});
+  })();
+</script>
+
 {% schema %}
- {
-   "name": "AI_Block",
-   "tag": "shopify-ai-generated-block"
- }
+{
+  "name": "Carrousel d'images",
+  "settings": [
+    {
+      "type": "header",
+      "content": "Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_1",
+      "label": "Image 1"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_2",
+      "label": "Image 2"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_3",
+      "label": "Image 3"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_4",
+      "label": "Image 4"
+    },
+    {
+      "type": "image_picker",
+      "id": "image_5",
+      "label": "Image 5"
+    },
+    {
+      "type": "header",
+      "content": "Paramètres du carrousel"
+    },
+    {
+      "type": "range",
+      "id": "scroll_speed",
+      "label": "Vitesse de défilement",
+      "min": 5,
+      "max": 30,
+      "step": 5,
+      "unit": "s",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "slide_width",
+      "label": "Largeur des slides (desktop)",
+      "min": 20,
+      "max": 50,
+      "step": 5,
+      "unit": "%",
+      "default": 30
+    },
+    {
+      "type": "range",
+      "id": "slide_width_mobile",
+      "label": "Largeur des slides (mobile)",
+      "min": 50,
+      "max": 100,
+      "step": 10,
+      "unit": "%",
+      "default": 80
+    },
+    {
+      "type": "range",
+      "id": "slide_spacing",
+      "label": "Espacement entre les slides",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "desktop_width_percent",
+      "label": "Largeur desktop",
+      "min": 50,
+      "max": 100,
+      "step": 5,
+      "unit": "%",
+      "default": 100
+    },
+    {
+      "type": "header",
+      "content": "Style"
+    },
+    {
+      "type": "range",
+      "id": "border_radius",
+      "label": "Arrondi du conteneur",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "image_border_radius",
+      "label": "Arrondi des images",
+      "min": 0,
+      "max": 40,
+      "step": 4,
+      "unit": "px",
+      "default": 8
+    }
+  ],
+  "presets": [
+    {
+      "name": "Carrousel d'images"
+    }
+  ]
+}
 {% endschema %}
