@@ -402,22 +402,6 @@
         "overlay_opacity": 0
       }
     },
-    "image_with_text_overlay_wH8MCm": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_04_37_59.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "featured_product_YqJj7g": {
       "type": "featured-product",
       "blocks": {
@@ -682,15 +666,14 @@
     "rich_text_3RHRQ3",
     "image_with_text_overlay_NE4VqJ",
     "impact-text",
-    "image_with_text_overlay_4LM3gg",
     "image_with_text_overlay_WEHryq",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
     "scrolling_text_4rV9t3",
+    "image_with_text_overlay_4LM3gg",
     "178019223753940044",
     "blocks_aUe7jB",
     "image_with_text_overlay_eJ66j9",
-    "image_with_text_overlay_wH8MCm",
     "featured_product_YqJj7g",
     "custom_liquid_WhWta4",
     "1780402187d4c6268d",
