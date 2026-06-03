@@ -177,7 +177,7 @@
       "settings": {
         "full_width": true,
         "remove_vertical_spacing": true,
-        "remove_horizontal_spacing": true,
+        "remove_horizontal_spacing": false,
         "liquid": "<div class=\"mcb-rating-wrapper\">\n  <div class=\"mcb-rating-bar\">\n    <span class=\"mcb-score\">4.9</span>\n    <div class=\"mcb-stars\">\n      {% for i in (1..5) %}\n        <svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 24 24\" fill=\"#6B3A2A\" width=\"22\" height=\"22\">\n          <path d=\"M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z\"/>\n        </svg>\n      {% endfor %}\n    </div>\n    <span class=\"mcb-label\">Basé sur +500 avis vérifiés</span>\n  </div>\n</div>\n\n<style>\n  .mcb-rating-wrapper {\n    display: flex;\n    justify-content: center;\n    align-items: center;\n    width: 100%;\n    padding: 16px 0;\n  }\n\n  .mcb-rating-bar {\n    display: flex;\n    align-items: center;\n    gap: 10px;\n    font-family: Georgia, serif;\n  }\n\n  .mcb-score {\n    font-size: 2.2rem;\n    font-weight: 700;\n    color: #1A1A1A;\n    line-height: 1;\n  }\n\n  .mcb-stars {\n    display: flex;\n    align-items: center;\n    gap: 2px;\n  }\n\n  .mcb-label {\n    font-size: 0.85rem;\n    color: #1A1A1A;\n    font-style: italic;\n  }\n</style>",
         "background": "",
         "background_gradient": "linear-gradient(89deg, rgba(NaN, NaN, NaN, 0) 7%, rgba(148, 88, 255, 1) 94%)",
@@ -476,7 +476,7 @@
         "button_q7bTeU": {
           "type": "button",
           "settings": {
-            "link": "shopify://products/chausse-pied-mural-magnetique-scandinave-maison-clairbois",
+            "link": "shopify://products/chausse-pied-mural-magnetique-scandinave-maison-clairbois?action=add",
             "text": "Je commande",
             "size": "xl",
             "style": "fill",
