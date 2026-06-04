@@ -469,6 +469,17 @@
             "manual_deal_block_id": ""
           }
         },
+        "buy_buttons_8DhiAr": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": true,
+            "show_gift_card_recipient": true,
+            "atc_button_background": "",
+            "atc_button_text_color": "",
+            "payment_button_background": "",
+            "payment_button_text_color": ""
+          }
+        },
         "pickup_availability_QfG6Wx": {
           "type": "pickup_availability",
           "settings": {}
@@ -485,6 +496,7 @@
         "description_nWegy8",
         "quantity_selector_MqUfU9",
         "kaching_bundles_app_block_yhFNiz",
+        "buy_buttons_8DhiAr",
         "pickup_availability_QfG6Wx"
       ],
       "name": "Featured product",
