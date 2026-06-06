@@ -191,7 +191,7 @@
           "type": "testimonial",
           "settings": {
             "image": "shopify://shop_images/young-woman-in-orange-shirt-with-pomegranate-tattoo.jpg",
-            "round_avatar": true,
+            "round_avatar": false,
             "show_rating": true,
             "rating": 5,
             "author": "",
