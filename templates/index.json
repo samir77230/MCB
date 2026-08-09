@@ -655,6 +655,48 @@
       ],
       "name": "Séparateur de section",
       "settings": {}
+    },
+    "images_with_text_scrolling_KYh3wG": {
+      "type": "images-with-text-scrolling",
+      "blocks": {
+        "item_ygD3zM": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_20_44_45.png",
+            "icon": "none",
+            "icon_width": 44,
+            "title": "Ce que votre lave-linge cache vraiment",
+            "content": "<p>Vu de l'extérieur, votre lave-linge semble propre. À l'intérieur, poils incrustés, résidus et odeurs s'accumulent dans le joint et le tambour invisibles, mais bien présents. </p><p><strong>Résultat</strong> : Des poils qui reviennent sur le linge propre, et une machine qui s'use plus vite.</p>"
+          }
+        },
+        "item_JkNc3K": {
+          "type": "item",
+          "settings": {
+            "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_20_48_58.png",
+            "icon": "none",
+            "icon_width": 48,
+            "title": "Notre solution",
+            "content": "<p>Angira empêche les résidus, même microscopiques, d'adhérer aux parois du tambour. Elle cible les odeurs et décompose les poils d'animaux pour un nettoyage en profondeur. Dissoute dans l'eau, elle laisse votre machine parfaitement propre et prolonge sa durée de vie.</p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_ygD3zM",
+        "item_JkNc3K"
+      ],
+      "name": "Images and text scrolling",
+      "settings": {
+        "full_width": true,
+        "stack_on_mobile": false,
+        "show_counter": true,
+        "desktop_image_effect": "reveal",
+        "image_position": "end",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": ""
+      }
     }
   },
   "order": [
@@ -681,6 +723,7 @@
     "1780232986faa04107",
     "blocks_bpg3cp",
     "blocks_LDPqnF",
-    "blocks_TFYCgT"
+    "blocks_TFYCgT",
+    "images_with_text_scrolling_KYh3wG"
   ]
 }
