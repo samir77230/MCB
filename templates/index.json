@@ -51,6 +51,22 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
+    "image_with_text_overlay_WEHryq": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": true,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_08_06.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "custom_liquid_jKMpkq": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -137,22 +153,6 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
-      }
-    },
-    "image_with_text_overlay_WEHryq": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_08_06.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
       }
     },
     "custom_liquid_AXwfaf": {
@@ -647,11 +647,11 @@
   },
   "order": [
     "slideshow",
+    "image_with_text_overlay_WEHryq",
     "custom_liquid_jKMpkq",
     "rich_text_3RHRQ3",
     "image_with_text_overlay_NE4VqJ",
     "impact-text",
-    "image_with_text_overlay_WEHryq",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
     "scrolling_text_4rV9t3",
