@@ -34,21 +34,11 @@
             "content": "<p>Au fil des années, nos habitudes ont évolué. Nos machines sont devenues plus performantes, mais certains problèmes du quotidien persistent : résidus, odeurs et surtout poils d’animaux qui restent dans le tambour et peuvent se redéposer sur le linge.</p><p>C’est de ce constat qu’est née ANGIRA.</p><p>Nous pensons que l’entretien du lave-linge mérite lui aussi d’évoluer. Notre ambition est de proposer une nouvelle génération de capsules, pensées pour nettoyer le tambour en profondeur et aider à éliminer les poils et résidus qui s’y accumulent au fil des lavages.</p><p>Au cœur d’ANGIRA se trouve une formule dernière génération, développée pour combiner efficacité et simplicité d’utilisation. Une capsule, un cycle : la formule agit au cœur de la machine pour laisser un tambour plus propre et limiter la présence de poils sur le linge.</p><p>Particulièrement pensée pour les foyers avec chiens et chats, ANGIRA transforme un geste simple en une nouvelle routine d’entretien.</p><p>Notre objectif : une machine plus propre, moins de poils et un linge qui ressort vraiment propre.</p>"
           }
         },
-        "slide_eE8wzL": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_3_juin_2026_00_06_49.png",
-            "navigation_label": "III",
-            "subheading": "",
-            "title": "Notre développement",
-            "content": "<p>Au fil des années, les créations inspirées de cet héritage alpin ont commencé à trouver leur place bien au-delà des ateliers.</p><p>D'abord proposées dans quelques boutiques indépendantes de montagne et magasins dédiés à l'art de vivre, elles ont rapidement séduit une clientèle sensible aux objets durables, utiles et élégants.</p><p>Ce succès a confirmé une conviction simple : les accessoires du quotidien méritent autant d'attention que les pièces maîtresses de nos intérieurs.</p><p>C'est ainsi qu'est née Maison Clairbois, avec la volonté de faire découvrir au plus grand nombre des objets inspirés du savoir-faire traditionnel du bois, réinventés pour répondre aux besoins d'aujourd'hui.</p><p>Aujourd'hui, nous poursuivons cette même ambition : créer des objets intemporels qui simplifient la vie, embellissent les intérieurs et accompagnent durablement ceux qui les utilisent.</p>"
-          }
-        },
         "slide_UyYVFV": {
           "type": "slide",
           "settings": {
             "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_52_08.png",
-            "navigation_label": "IIII",
+            "navigation_label": "III",
             "subheading": "",
             "title": "Aujourd'hui",
             "content": "<p>Au fil des années, nos habitudes ont évolué, nos machines aussi. Pourtant, un problème reste bien présent dans de nombreux foyers : les poils d’animaux qui s’accumulent dans le tambour et peuvent se redéposer sur le linge, même après un lavage.</p><p>C’est face à ce constat qu’est née ANGIRA, avec une ambition claire : repenser l’entretien du lave-linge grâce à une formule nouvelle génération, simple à utiliser et adaptée au quotidien des foyers avec chiens et chats.</p><p>Notre approche repose sur une idée simple : pour obtenir un linge réellement propre, il faut aussi prendre soin de l’endroit où il est lavé. Les capsules ANGIRA sont ainsi pensées pour agir directement au cœur de la machine, en aidant à nettoyer le tambour et à éliminer les poils et résidus qui peuvent s’y accumuler.</p><p>Cette vision nous a conduits à développer une solution qui associe innovation, efficacité et simplicité, sans ajouter de contrainte à votre routine : une capsule, un cycle, une machine plus propre.</p><p>Aujourd’hui, ANGIRA poursuit la même ambition : faire évoluer l’entretien du linge pour répondre aux besoins des foyers modernes et de tous ceux qui aiment leurs animaux… mais préfèrent ne pas retrouver leurs poils sur leurs vêtements.</p>"
@@ -58,7 +48,6 @@
       "block_order": [
         "slide_a3UYit",
         "slide_md9xcm",
-        "slide_eE8wzL",
         "slide_UyYVFV"
       ],
       "name": "Timeline",
