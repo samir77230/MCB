@@ -59,7 +59,7 @@
         "allow_transparent_header": false,
         "enable_parallax": false,
         "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_08_06.png",
+        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_18_43_41.png",
         "mobile_text_position": "place-self-center text-center",
         "desktop_text_position": "sm:place-self-center sm:text-center",
         "text_color": "#ffffff",
@@ -643,6 +643,19 @@
       ],
       "name": "Séparateur de section",
       "settings": {}
+    },
+    "custom_liquid_zNF9bF": {
+      "type": "custom-liquid",
+      "name": "Custom Liquid",
+      "settings": {
+        "full_width": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": true,
+        "liquid": "<style>\n  .angira-hero-titre {\n    text-align: center;\n    padding: 48px 24px;\n    background: #F7F8FA;\n    font-family: system-ui;\n  }\n  .angira-hero-eyebrow {\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    gap: 14px;\n    font-size: 12px;\n    font-weight: 700;\n    letter-spacing: 2px;\n    color: #C1592B;\n    text-transform: uppercase;\n    margin: 0 0 22px;\n  }\n  .angira-hero-eyebrow::before,\n  .angira-hero-eyebrow::after {\n    content: '';\n    width: 32px;\n    height: 1px;\n    background: #C1592B;\n  }\n  .angira-hero-titre h2 {\n    font-family: Georgia, 'Times New Roman', serif;\n    font-weight: 700;\n    font-size: clamp(30px, 5vw, 44px);\n    line-height: 1.25;\n    color: #16302E;\n    margin: 0;\n  }\n</style>\n\n<div class=\"angira-hero-titre\">\n  <p class=\"angira-hero-eyebrow\">Une formule simple et efficace</p>\n  <h2>Un tambour propre<br>comme au premier jour.</h2>\n</div>",
+        "background": "",
+        "background_gradient": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -660,6 +673,7 @@
     "image_with_text_overlay_eJ66j9",
     "before_after_image_6AjzKJ",
     "featured_product_YqJj7g",
+    "custom_liquid_zNF9bF",
     "custom_liquid_WK6mkh",
     "custom_liquid_WhWta4",
     "1780402187d4c6268d",
