@@ -372,6 +372,28 @@
         "drag_cursor_color": "#000000"
       }
     },
+    "recently_viewed_products_6ce7fc": {
+      "type": "recently-viewed-products",
+      "name": "Recently viewed products",
+      "settings": {
+        "full_width": true,
+        "products_count": 2,
+        "stack_products": true,
+        "show_progress_bar": false,
+        "products_per_row_mobile": "1",
+        "products_per_row_desktop": 2,
+        "subheading": "",
+        "title": "Marre de retrouver des poils sur votre linge après chaque lavage ?",
+        "content": "",
+        "background": "",
+        "background_gradient": "",
+        "text_color": "",
+        "heading_color": "",
+        "heading_gradient": "",
+        "product_card_background": "",
+        "product_card_text_color": ""
+      }
+    },
     "featured_product_YqJj7g": {
       "type": "featured-product",
       "blocks": {
@@ -450,6 +472,7 @@
         "buy_buttons_8DhiAr",
         "pickup_availability_QfG6Wx"
       ],
+      "disabled": true,
       "name": "Featured product",
       "settings": {
         "full_width": true,
@@ -624,35 +647,8 @@
         "text_color": ""
       }
     },
-    "blocks_bpg3cp": {
-      "type": "_blocks",
-      "name": "Séparateur de section",
-      "settings": {}
-    },
     "blocks_LDPqnF": {
       "type": "_blocks",
-      "name": "Séparateur de section",
-      "settings": {}
-    },
-    "blocks_TFYCgT": {
-      "type": "_blocks",
-      "blocks": {
-        "ai_gen_block_88d11f1_qLtEbB": {
-          "type": "ai_gen_block_88d11f1",
-          "settings": {
-            "divider_height": 2,
-            "divider_color": "#ffffff",
-            "border_radius": 0,
-            "desktop_width_percent": 100,
-            "spacing_top": 20,
-            "spacing_bottom": 20
-          },
-          "blocks": {}
-        }
-      },
-      "block_order": [
-        "ai_gen_block_88d11f1_qLtEbB"
-      ],
       "name": "Séparateur de section",
       "settings": {}
     },
@@ -712,6 +708,7 @@
     "blocks_aUe7jB",
     "image_with_text_overlay_eJ66j9",
     "before_after_image_6AjzKJ",
+    "recently_viewed_products_6ce7fc",
     "featured_product_YqJj7g",
     "custom_liquid_WK6mkh",
     "custom_liquid_WhWta4",
@@ -721,9 +718,7 @@
     "17804141537086cf56",
     "custom_liquid_BW4h9D",
     "1780232986faa04107",
-    "blocks_bpg3cp",
     "blocks_LDPqnF",
-    "blocks_TFYCgT",
     "images_with_text_scrolling_KYh3wG"
   ]
 }
