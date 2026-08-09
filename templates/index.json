@@ -66,6 +66,22 @@
     },
     "image_with_text_overlay_WEHryq": {
       "type": "image-with-text-overlay",
+      "blocks": {
+        "button_HPRLn9": {
+          "type": "button",
+          "settings": {
+            "style": "outline",
+            "size": "base",
+            "text": "Je découvre",
+            "url": "shopify://products/chausse-pied-mural-magnetique-scandinave-maison-clairbois",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "button_HPRLn9"
+      ],
       "name": "Image with text overlay",
       "settings": {
         "full_width": true,
@@ -73,8 +89,8 @@
         "enable_parallax": false,
         "image_size": "auto",
         "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_18_43_41.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
         "text_color": "#ffffff",
         "overlay_color": "#000000",
         "overlay_opacity": 0
@@ -82,7 +98,6 @@
     },
     "impact-text": {
       "type": "impact-text",
-      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -97,6 +112,22 @@
         "text_color": "",
         "button_background": "",
         "button_text_color": ""
+      }
+    },
+    "image_with_text_overlay_yEkqTx": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_19_17_57.png",
+        "mobile_text_position": "place-self-end-center text-center",
+        "desktop_text_position": "sm:place-self-end-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
       }
     },
     "custom_liquid_AXwfaf": {
@@ -587,22 +618,6 @@
       ],
       "name": "Séparateur de section",
       "settings": {}
-    },
-    "image_with_text_overlay_yEkqTx": {
-      "type": "image-with-text-overlay",
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": false,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_19_17_57.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
     }
   },
   "order": [
