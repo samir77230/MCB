@@ -11,53 +11,6 @@
   "type": "footer",
   "name": "Footer group",
   "sections": {
-    "timeline_qFLr49": {
-      "type": "timeline",
-      "blocks": {
-        "slide_a3UYit": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_42_04.png",
-            "navigation_label": "I",
-            "subheading": "",
-            "title": "Le secret que cache votre lave-linge",
-            "content": "<p>Vu de l'extérieur, votre lave-linge semble parfaitement propre. Mais à l'intérieur, il dissimule quelque chose de moins agréable : des poils incrustés dans le joint, coincés dans le tambour et logés dans les recoins invisibles. Cette accumulation emprisonne les odeurs, redépose les poils sur votre linge propre et finit par user prématurément votre appareil.</p><p>Une utilisation régulière permet de décoller les poils et résidus logés dans le joint, le tambour et les zones difficiles d'accès ; cela garantit un lavage vraiment efficace, évite que les poils reviennent se coller sur vos vêtements fraîchement lavés, et prolonge la durée de vie de votre machine.</p><p>Il est temps d'offrir à votre lave-linge le nettoyage en profondeur dont il a besoin.</p><p>À l'intérieur de la machine, dans cet environnement chaud et humide, les poils et résidus s'accumulent et dégagent une odeur qui persiste, même après lavage. Ces impuretés finissent par se retrouver sur vos vêtements... et sur votre peau. Ne laissez pas ce qui se cache à l'intérieur de votre machine gâcher chacune de vos lessives.</p>"
-          }
-        },
-        "slide_md9xcm": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_46_09.png",
-            "navigation_label": "II",
-            "subheading": "",
-            "title": "Fonctionnement",
-            "content": "<p>Conçue pour éliminer les accumulations les plus tenaces, la formule avancée d'Angira empêche les résidus d'adhérer aux parois internes de votre machine. Cela inclut les particules microscopiques  invisibles à l'œil nu qui contaminent insidieusement chaque cycle de lavage.</p><p>Reposant sur une formule exclusive qui cible les odeurs d'animaux et décompose les poils, Angira est tout simplement la meilleure solution pour les propriétaires d'animaux souhaitant un nettoyage en profondeur de leur machine.</p><p>En se dissolvant dans l'eau, Angira s'attaque aux dépôts de résidus et aux protéines contenues dans les poils d'animaux ; votre machine ressort parfaitement propre et, grâce à une utilisation régulière, sa durée de vie s'en trouve considérablement prolongée.</p>"
-          }
-        },
-        "slide_UyYVFV": {
-          "type": "slide",
-          "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_17_52_08.png",
-            "navigation_label": "III",
-            "subheading": "",
-            "title": "Aujourd'hui",
-            "content": "<p>Au fil des années, nos habitudes ont évolué, nos machines aussi. Pourtant, un problème reste bien présent dans de nombreux foyers : les poils d’animaux qui s’accumulent dans le tambour et peuvent se redéposer sur le linge, même après un lavage.</p><p>C’est face à ce constat qu’est née ANGIRA, avec une ambition claire : repenser l’entretien du lave-linge grâce à une formule nouvelle génération, simple à utiliser et adaptée au quotidien des foyers avec chiens et chats.</p><p>Notre approche repose sur une idée simple : pour obtenir un linge réellement propre, il faut aussi prendre soin de l’endroit où il est lavé. Les capsules ANGIRA sont ainsi pensées pour agir directement au cœur de la machine, en aidant à nettoyer le tambour et à éliminer les poils et résidus qui peuvent s’y accumuler.</p><p>Cette vision nous a conduits à développer une solution qui associe innovation, efficacité et simplicité, sans ajouter de contrainte à votre routine : une capsule, un cycle, une machine plus propre.</p><p>Aujourd’hui, ANGIRA poursuit la même ambition : faire évoluer l’entretien du linge pour répondre aux besoins des foyers modernes et de tous ceux qui aiment leurs animaux… mais préfèrent ne pas retrouver leurs poils sur leurs vêtements.</p>"
-          }
-        }
-      },
-      "block_order": [
-        "slide_a3UYit",
-        "slide_md9xcm",
-        "slide_UyYVFV"
-      ],
-      "name": "Timeline",
-      "settings": {
-        "full_width": true,
-        "background": "",
-        "background_gradient": "",
-        "text_color": ""
-      }
-    },
     "text-with-icons": {
       "type": "text-with-icons",
       "blocks": {
@@ -139,7 +92,7 @@
           "settings": {
             "menu": "footer",
             "show_menu_title": true,
-            "menu_title": "Maison Clairbois"
+            "menu_title": "ANGIRA"
           }
         }
       },
@@ -164,7 +117,6 @@
     }
   },
   "order": [
-    "timeline_qFLr49",
     "text-with-icons",
     "footer",
     "blocks_9m6n3W"

@@ -628,6 +628,28 @@
       "type": "_blocks",
       "name": "Séparateur de section",
       "settings": {}
+    },
+    "blocks_LDPqnF": {
+      "type": "_blocks",
+      "blocks": {
+        "ai_gen_block_88d11f1_wNKrHK": {
+          "type": "ai_gen_block_88d11f1",
+          "settings": {
+            "divider_height": 2,
+            "divider_color": "#ffffff",
+            "border_radius": 0,
+            "desktop_width_percent": 100,
+            "spacing_top": 20,
+            "spacing_bottom": 20
+          },
+          "blocks": {}
+        }
+      },
+      "block_order": [
+        "ai_gen_block_88d11f1_wNKrHK"
+      ],
+      "name": "Séparateur de section",
+      "settings": {}
     }
   },
   "order": [
@@ -652,6 +674,7 @@
     "17804141537086cf56",
     "custom_liquid_BW4h9D",
     "1780232986faa04107",
-    "blocks_bpg3cp"
+    "blocks_bpg3cp",
+    "blocks_LDPqnF"
   ]
 }
