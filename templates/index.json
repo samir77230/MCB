@@ -73,7 +73,7 @@
             "style": "outline",
             "size": "base",
             "text": "Je découvre",
-            "url": "shopify://products/chausse-pied-mural-magnetique-scandinave-maison-clairbois",
+            "url": "shopify://products/capsule-de-nettoyage-en-pour-lave-linge-angira",
             "background": "",
             "text_color": ""
           }
@@ -453,7 +453,7 @@
       "name": "Featured product",
       "settings": {
         "full_width": true,
-        "product": "chausse-pied-mural-magnetique-scandinave-maison-clairbois",
+        "product": "capsule-de-nettoyage-en-pour-lave-linge-angira",
         "desktop_media_width": 55,
         "desktop_media_layout": "carousel_thumbnails_left",
         "mobile_media_size": "expanded",
