@@ -32,7 +32,7 @@
     "product_rating_color": "#8b7355",
     "product_on_sale_accent": "#558656",
     "product_primary_badge_background": "#8b7355",
-    "heading_font": "cormorant_n4",
+    "heading_font": "system_ui_n4",
     "heading_font_size": "large",
     "heading_text_transform": "normal",
     "heading_letter_spacing": -1,
@@ -43,17 +43,10 @@
     "product_color_display": "hide",
     "product_info_alignment": "start",
     "cart_icon": "tote_bag",
-    "favicon": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_40_18.png",
+    "favicon": "shopify://shop_images/ChatGPT_Image_9_aout_2026_16_46_41.png",
     "checkout_accent_color": "#f0c417",
     "checkout_button_color": "#1a1a1a",
-    "content_for_index": [],
-    "blocks": {
-      "15557474716127144420": {
-        "type": "shopify://apps/kaching-bundles/blocks/app-embed-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-        "disabled": false,
-        "settings": {}
-      }
-    }
+    "content_for_index": []
   },
   "presets": {
     "Sound": {

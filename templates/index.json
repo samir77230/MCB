@@ -15,13 +15,13 @@
         "image_PDNUFH": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/ChatGPT_Image_1_juin_2026_15_20_44.png",
-            "mobile_image": "shopify://shop_images/ChatGPT_Image_1_juin_2026_15_24_09.png",
+            "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_16_52_40.png",
+            "mobile_image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_16_56_00.png",
             "content_max_width": 1200,
             "mobile_text_position": "place-self-end-center text-center",
             "desktop_text_position": "sm:place-self-end-center sm:text-center",
             "subheading": "",
-            "title": "Le chausse-pied qui embellit votre entrée.Un chausse pied élégant, toujours à portée de main grâce à son support mural",
+            "title": "",
             "heading_tag": "h3",
             "button_text": "",
             "button_link": "",
@@ -51,22 +51,6 @@
         "background_gradient": "linear-gradient(60deg, rgba(60, 65, 68, 1), rgba(23, 29, 33, 1) 98%)"
       }
     },
-    "image-with-text-overlay": {
-      "type": "image-with-text-overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": false,
-        "enable_parallax": false,
-        "image_size": "auto",
-        "image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_20_09.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_18_31.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#ffffff",
-        "overlay_opacity": 0
-      }
-    },
     "custom_liquid_jKMpkq": {
       "type": "custom-liquid",
       "name": "Custom Liquid",
@@ -74,7 +58,7 @@
         "full_width": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<style>\n  .mcb-pain {\n    background: #FAF5F2;\n    padding: 52px 24px 40px;\n    text-align: center;\n  }\n  .mcb-pain-titre {\n    font-family: Georgia, serif;\n    font-size: 26px;\n    font-weight: 400;\n    color: #1A1A1A;\n    margin: 0 0 6px;\n    line-height: 1.3;\n  }\n  .mcb-pain-divider {\n    width: 40px;\n    height: 2px;\n    background: #E0D5CC;\n    margin: 0 auto 36px;\n    border: none;\n  }\n  .mcb-pain-grid {\n    display: flex;\n    justify-content: center;\n    gap: 16px;\n    flex-wrap: wrap;\n    margin-bottom: 32px;\n  }\n  .mcb-pain-card {\n    background: #fff;\n    border-radius: 12px;\n    padding: 24px 20px 20px;\n    width: 190px;\n    display: flex;\n    flex-direction: column;\n    align-items: center;\n    gap: 16px;\n    box-shadow: 0 1px 4px rgba(0,0,0,0.05);\n  }\n  .mcb-pain-icon-wrap {\n    width: 72px;\n    height: 72px;\n    border-radius: 50%;\n    background: #F5EDE8;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n  }\n  .mcb-pain-icon-wrap svg {\n    width: 36px;\n    height: 36px;\n    stroke: #6B3A2A;\n    fill: none;\n    stroke-width: 1.4;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n  .mcb-pain-card-text {\n    font-size: 14px;\n    color: #1A1A1A;\n    line-height: 1.45;\n    margin: 0;\n    font-family: Georgia, serif;\n  }\n  .mcb-pain-conclusion {\n    font-family: Georgia, serif;\n    font-size: 16px;\n    font-style: italic;\n    color: #6B3A2A;\n    margin: 0;\n    line-height: 1.6;\n  }\n  @media (max-width: 600px) {\n    .mcb-pain-titre { font-size: 20px; }\n    .mcb-pain-grid { gap: 12px; }\n    .mcb-pain-card { width: calc(50% - 6px); padding: 18px 14px; }\n  }\n</style>\n\n<div class=\"mcb-pain\">\n  <h2 class=\"mcb-pain-titre\">Combien de fois vous êtes-vous baissé aujourd'hui ?</h2>\n  <hr class=\"mcb-pain-divider\">\n\n  <div class=\"mcb-pain-grid\">\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n       <svg viewBox=\"0 0 40 40\">\n  <!-- Semelle -->\n  <path d=\"M4 28 Q4 32 8 32 L34 32 Q38 32 38 29 Q38 27 34 27 L28 27\"/>\n  <!-- Corps de la chaussure -->\n  <path d=\"M8 27 Q8 18 14 17 Q18 16 20 18 L28 27\"/>\n  <!-- Languette -->\n  <path d=\"M14 17 Q15 13 18 13 Q21 13 22 16\"/>\n  <!-- Lacets -->\n  <line x1=\"15\" y1=\"20\" x2=\"22\" y2=\"19\"/>\n  <line x1=\"15\" y1=\"23\" x2=\"23\" y2=\"22\"/>\n</svg>\n\n          <circle cx=\"20\" cy=\"8\" r=\"4\"/>\n          <path d=\"M20 12 L20 22\"/>\n          <path d=\"M20 22 L12 34\"/>\n          <path d=\"M20 22 L28 30\"/>\n          <path d=\"M14 18 L26 22\"/>\n          <path d=\"M12 34 L16 34\"/>\n          <path d=\"M28 30 L32 30\"/>\n          <!-- Dos courbé -->\n          <path d=\"M20 12 Q16 18 12 20\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour enfiler<br>vos chaussures</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Loupe -->\n          <circle cx=\"17\" cy=\"17\" r=\"9\"/>\n          <line x1=\"24\" y1=\"24\" x2=\"33\" y2=\"33\"/>\n          <!-- Point d'interrogation -->\n          <path d=\"M14 14 Q14 11 17 11 Q20 11 20 14 Q20 16 17 17\"/>\n          <circle cx=\"17\" cy=\"20\" r=\"0.8\" fill=\"#6B3A2A\" stroke=\"none\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour chercher<br>votre chausse-pied</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Tiroir -->\n          <rect x=\"6\" y=\"8\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <rect x=\"6\" y=\"22\" width=\"28\" height=\"10\" rx=\"2\"/>\n          <circle cx=\"20\" cy=\"13\" r=\"2\"/>\n          <circle cx=\"20\" cy=\"27\" r=\"2\"/>\n          <!-- Flèche qui sort du tiroir ouvert -->\n          <path d=\"M6 18 L6 22\"/>\n          <path d=\"M34 18 L34 22\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour le récupérer<br>au fond d'un tiroir</p>\n    </div>\n\n    <div class=\"mcb-pain-card\">\n      <div class=\"mcb-pain-icon-wrap\">\n        <svg viewBox=\"0 0 40 40\">\n          <!-- Panier / rangement -->\n          <path d=\"M8 16 L10 30 L30 30 L32 16 Z\"/>\n          <path d=\"M5 16 L35 16\"/>\n          <path d=\"M14 16 L12 10\"/>\n          <path d=\"M26 16 L28 10\"/>\n          <line x1=\"14\" y1=\"22\" x2=\"26\" y2=\"22\"/>\n          <line x1=\"13\" y1=\"26\" x2=\"27\" y2=\"26\"/>\n        </svg>\n      </div>\n      <p class=\"mcb-pain-card-text\">Pour ranger ce qui<br>devrait rester<br>à portée de main</p>\n    </div>\n\n  </div>\n\n  <p class=\"mcb-pain-conclusion\">Maison Clairbois a été conçu pour mettre fin<br>à ces gestes répétitifs du quotidien.</p>\n</div>",
+        "liquid": "<style>\n  .angira-gestes {\n    --ink: #16302E;\n    --paper: #EFEEE8;\n    --paper-line: #DEDBD2;\n    --teal: #2C8C82;\n    --rust: #C1592B;\n    --slate: #5B6B69;\n\n    background: var(--paper);\n    padding: 72px 24px 88px;\n    font-family: 'Inter', Arial, sans-serif;\n    color: var(--ink);\n  }\n  .angira-gestes__wrap { max-width: 680px; margin: 0 auto; }\n  .angira-gestes__title {\n    font-family: 'Manrope', Arial, sans-serif;\n    font-weight: 800;\n    letter-spacing: -0.01em;\n    font-size: clamp(26px, 4vw, 34px);\n    line-height: 1.25;\n    text-align: center;\n    margin: 0 0 22px;\n  }\n  .angira-gestes__divider {\n    width: 56px;\n    height: 3px;\n    background: var(--teal);\n    border-radius: 2px;\n    margin: 0 auto 44px;\n  }\n  .angira-gestes__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 18px;\n    margin-bottom: 40px;\n  }\n  @media (max-width: 560px) {\n    .angira-gestes__grid { grid-template-columns: 1fr 1fr; gap: 12px; }\n  }\n  .angira-gestes__card {\n    background: #ffffff;\n    border: 1px solid var(--paper-line);\n    border-radius: 14px;\n    padding: 32px 18px 26px;\n    text-align: center;\n    box-shadow: 0 1px 2px rgba(22,48,46,0.04);\n  }\n  .angira-gestes__icon {\n    width: 76px;\n    height: 76px;\n    border-radius: 50%;\n    background: #F3E2D8;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 20px;\n  }\n  .angira-gestes__icon svg {\n    width: 32px;\n    height: 32px;\n    stroke: var(--rust);\n    fill: none;\n    stroke-width: 1.6;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n  .angira-gestes__label {\n    font-size: 15px;\n    line-height: 1.45;\n    color: var(--ink);\n    font-weight: 500;\n  }\n  .angira-gestes__outro {\n    font-family: 'Manrope', Arial, sans-serif;\n    font-style: italic;\n    font-weight: 700;\n    color: var(--rust);\n    text-align: center;\n    font-size: clamp(17px, 2.6vw, 20px);\n    line-height: 1.5;\n    max-width: 540px;\n    margin: 0 auto;\n  }\n</style>\n\n<div class=\"angira-gestes\">\n  <div class=\"angira-gestes__wrap\">\n    <h2 class=\"angira-gestes__title\">Combien de fois avez-vous retiré des poils de vos vêtements aujourd'hui ?</h2>\n    <div class=\"angira-gestes__divider\"></div>\n\n    <div class=\"angira-gestes__grid\">\n\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"></rect><circle cx=\"12\" cy=\"13\" r=\"5\"></circle><path d=\"M8 3v2M16 3v2\"></path></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour brosser un pull avant de le porter</div>\n      </div>\n\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><circle cx=\"9\" cy=\"9\" r=\"5\"></circle><path d=\"M17.5 17.5L22 22\"></path><path d=\"M6.5 9h5M9 6.5v5\"></path></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour vérifier si le linge sent encore le chien</div>\n      </div>\n\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><path d=\"M4 6h16\"></path><path d=\"M4 12h16\"></path><path d=\"M4 18h10\"></path><circle cx=\"19\" cy=\"18\" r=\"2.4\"></circle></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour nettoyer le joint du tambour à la main</div>\n      </div>\n\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><path d=\"M3 3v6h6\"></path><path d=\"M3.5 13a8.5 8.5 0 1 0 2-8.5L3 9\"></path></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour relancer un lavage qui n'a pas suffi</div>\n      </div>\n\n    </div>\n\n    <p class=\"angira-gestes__outro\">Angira a été conçu pour mettre fin à ces gestes répétitifs du quotidien.</p>\n  </div>\n</div>",
         "background": "",
         "background_gradient": "",
         "text_color": "#000000"
@@ -462,13 +446,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "kaching_bundles_app_block_yhFNiz": {
-          "type": "shopify://apps/kaching-bundles/blocks/app-block/6c637362-a106-4a32-94ac-94dcfd68cdb8",
-          "settings": {
-            "product": "chausse-pied-mural-magnetique-scandinave-maison-clairbois",
-            "manual_deal_block_id": ""
-          }
-        },
         "buy_buttons_8DhiAr": {
           "type": "buy_buttons",
           "settings": {
@@ -495,7 +472,6 @@
         "separator_CXJNNp",
         "description_nWegy8",
         "quantity_selector_MqUfU9",
-        "kaching_bundles_app_block_yhFNiz",
         "buy_buttons_8DhiAr",
         "pickup_availability_QfG6Wx"
       ],
@@ -671,7 +647,6 @@
   },
   "order": [
     "slideshow",
-    "image-with-text-overlay",
     "custom_liquid_jKMpkq",
     "rich_text_3RHRQ3",
     "image_with_text_overlay_NE4VqJ",
