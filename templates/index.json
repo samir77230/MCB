@@ -80,78 +80,9 @@
         "overlay_opacity": 0
       }
     },
-    "custom_liquid_jKMpkq": {
-      "type": "custom-liquid",
-      "name": "Custom Liquid",
-      "settings": {
-        "full_width": true,
-        "remove_vertical_spacing": false,
-        "remove_horizontal_spacing": true,
-        "liquid": "<style>\n  .angira-gestes {\n    --ink: #16302E;\n    --paper: #EFEEE8;\n    --paper-line: #DEDBD2;\n    --rust: #C1592B;\n    --slate: #5B6B69;\n    background: var(--paper);\n    padding: 72px 24px 88px;\n    font-family: system-ui;\n    color: var(--ink);\n  }\n  .angira-gestes__wrap { max-width: 680px; margin: 0 auto; }\n  .angira-gestes__title {\n    font-family: system-ui;\n    font-weight: 800;\n    letter-spacing: -0.01em;\n    font-size: clamp(26px, 4vw, 34px);\n    line-height: 1.25;\n    text-align: center;\n    margin: 0 0 22px;\n  }\n  .angira-gestes__divider {\n    width: 56px;\n    height: 3px;\n    background: var(--rust);\n    border-radius: 2px;\n    margin: 0 auto 44px;\n  }\n  .angira-gestes__grid {\n    display: grid;\n    grid-template-columns: 1fr 1fr;\n    gap: 18px;\n    margin-bottom: 40px;\n  }\n  @media (max-width: 560px) {\n    .angira-gestes__grid { grid-template-columns: 1fr 1fr; gap: 12px; }\n  }\n  .angira-gestes__card {\n    background: #ffffff;\n    border: 1px solid var(--paper-line);\n    border-radius: 14px;\n    padding: 32px 18px 26px;\n    text-align: center;\n    box-shadow: 0 1px 2px rgba(22,48,46,0.04);\n  }\n  .angira-gestes__icon {\n    width: 76px;\n    height: 76px;\n    border-radius: 50%;\n    background: #F3E2D8;\n    display: flex;\n    align-items: center;\n    justify-content: center;\n    margin: 0 auto 20px;\n  }\n  .angira-gestes__icon svg {\n    width: 32px;\n    height: 32px;\n    stroke: var(--rust);\n    fill: none;\n    stroke-width: 1.6;\n    stroke-linecap: round;\n    stroke-linejoin: round;\n  }\n  .angira-gestes__label {\n    font-size: 15px;\n    line-height: 1.45;\n    color: var(--ink);\n    font-weight: 500;\n  }\n  .angira-gestes__outro {\n    font-family: system-ui;\n    font-style: italic;\n    font-weight: 700;\n    color: var(--rust);\n    text-align: center;\n    font-size: clamp(17px, 2.6vw, 20px);\n    line-height: 1.5;\n    max-width: 540px;\n    margin: 0 auto;\n  }\n</style>\n<div class=\"angira-gestes\">\n  <div class=\"angira-gestes__wrap\">\n    <h2 class=\"angira-gestes__title\">Combien de fois avez-vous retiré des poils sur vos vêtements aujourd'hui ?</h2>\n    <div class=\"angira-gestes__divider\"></div>\n    <div class=\"angira-gestes__grid\">\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"2\"></rect><circle cx=\"12\" cy=\"13\" r=\"5\"></circle><path d=\"M8 3v2M16 3v2\"></path></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour brosser un pull avant de le porter</div>\n      </div>\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><circle cx=\"9\" cy=\"9\" r=\"5\"></circle><path d=\"M17.5 17.5L22 22\"></path><path d=\"M6.5 9h5M9 6.5v5\"></path></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour vérifier si le linge sent encore mauvais</div>\n      </div>\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><path d=\"M4 6h16\"></path><path d=\"M4 12h16\"></path><path d=\"M4 18h10\"></path><circle cx=\"19\" cy=\"18\" r=\"2.4\"></circle></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour nettoyer le joint du tambour à la main</div>\n      </div>\n      <div class=\"angira-gestes__card\">\n        <div class=\"angira-gestes__icon\">\n          <svg viewBox=\"0 0 24 24\"><path d=\"M3 3v6h6\"></path><path d=\"M3.5 13a8.5 8.5 0 1 0 2-8.5L3 9\"></path></svg>\n        </div>\n        <div class=\"angira-gestes__label\">Pour relancer un lavage qui n'a pas suffi</div>\n      </div>\n    </div>\n    <p class=\"angira-gestes__outro\">Angira a été conçu pour mettre fin à ces gestes répétitifs du quotidien.</p>\n  </div>\n</div>",
-        "background": "",
-        "background_gradient": "",
-        "text_color": "#000000"
-      }
-    },
-    "rich_text_3RHRQ3": {
-      "type": "rich-text",
-      "blocks": {
-        "icon_D74rwy": {
-          "type": "icon",
-          "settings": {
-            "icon": "picto-coupon",
-            "custom_icon": "shopify://shop_images/ChatGPT_Image_29_mai_2026_20_40_18.png",
-            "icon_width": 120,
-            "icon_background_type": "none",
-            "icon_background": "#ffffff",
-            "icon_color": ""
-          }
-        },
-        "heading_7FUiyb": {
-          "type": "heading",
-          "settings": {
-            "text": "Un intérieur bien pensé.",
-            "heading_tag": "h2",
-            "text_color": "#000000",
-            "gradient": ""
-          }
-        }
-      },
-      "block_order": [
-        "icon_D74rwy",
-        "heading_7FUiyb"
-      ],
-      "disabled": true,
-      "name": "Rich text",
-      "settings": {
-        "full_width": false,
-        "content_width": "large",
-        "text_position": "center",
-        "background": "#ffffff",
-        "background_gradient": "",
-        "text_color": "#1a1a1a"
-      }
-    },
-    "image_with_text_overlay_NE4VqJ": {
-      "type": "image-with-text-overlay",
-      "disabled": true,
-      "name": "Image with text overlay",
-      "settings": {
-        "full_width": true,
-        "allow_transparent_header": true,
-        "enable_parallax": false,
-        "image_size": "md",
-        "image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_03_49_50.png",
-        "mobile_image": "shopify://shop_images/ChatGPT_Image_31_mai_2026_03_39_35.png",
-        "mobile_text_position": "place-self-center text-center",
-        "desktop_text_position": "sm:place-self-center sm:text-center",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0
-      }
-    },
     "impact-text": {
       "type": "impact-text",
+      "disabled": true,
       "settings": {
         "full_width": true,
         "stack_mobile": true,
@@ -656,16 +587,30 @@
       ],
       "name": "Séparateur de section",
       "settings": {}
+    },
+    "image_with_text_overlay_yEkqTx": {
+      "type": "image-with-text-overlay",
+      "name": "Image with text overlay",
+      "settings": {
+        "full_width": false,
+        "allow_transparent_header": false,
+        "enable_parallax": false,
+        "image_size": "auto",
+        "image": "shopify://shop_images/ChatGPT_Image_9_aout_2026_19_17_57.png",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "text_color": "#ffffff",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
     }
   },
   "order": [
     "slideshow",
     "custom_liquid_zNF9bF",
     "image_with_text_overlay_WEHryq",
-    "custom_liquid_jKMpkq",
-    "rich_text_3RHRQ3",
-    "image_with_text_overlay_NE4VqJ",
     "impact-text",
+    "image_with_text_overlay_yEkqTx",
     "custom_liquid_AXwfaf",
     "testimonials_n36RPz",
     "scrolling_text_4rV9t3",
