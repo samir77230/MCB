@@ -17,14 +17,14 @@
         "message_D3zhML": {
           "type": "message",
           "settings": {
-            "text": "Satisfait ou remboursé 30 jours",
+            "text": "Jusqu'à -40% sur les packs",
             "url": ""
           }
         },
         "message_geF96P": {
           "type": "message",
           "settings": {
-            "text": "Livraison offerte dès 30€",
+            "text": "Livraison offerte",
             "url": ""
           }
         },
